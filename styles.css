@@ -775,3 +775,29 @@ h3 { font-size: 1.2rem; color: var(--body); }
   .cycle-grid { grid-template-columns: 1fr; }
   .cycle-card::after { display: none; }
 }
+
+/* ── NAV BREAKPOINT ───────────────────────────────────────────────────────
+   The collapse to a hamburger lived at 640px, which left an awkward band
+   between 641px and ~900px where the horizontal nav had to fit every link
+   plus the Get Started button. It was already tight at five links; adding
+   Learning Cycle made it wrap "How We Work" onto two lines mid-bar. Collapse
+   earlier instead of shortening the labels, since the labels are the
+   navigation. Declared after the 640px block so it wins on specificity order.
+───────────────────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    flex-direction: column;
+    padding: 16px 24px 24px;
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    gap: 4px;
+  }
+  .nav-links.nav-open { display: flex; }
+  .nav-toggle { display: block; margin-left: auto; }
+}
