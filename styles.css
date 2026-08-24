@@ -863,3 +863,40 @@ h3 { font-size: 1.2rem; color: var(--body); }
   /* Stacked, so a rightward arrow would point at nothing. */
   .cycle-card::after { display: none; }
 }
+
+/* ── CYCLE GRAPHIC ON PHONES ──────────────────────────────────────────────
+   David asked for the graphic on every screen, not the text cards, so the
+   cards are gone. The problem that made me hide it on phones is real though:
+   the source is 1535x1024, and squeezed into 375px the beat descriptions land
+   near 6px, which is unreadable rather than small.
+
+   So it stays the graphic everywhere, and on narrow screens it sits in a
+   horizontally scrollable frame at a legible minimum width. The reader swipes
+   the diagram instead of squinting at it. This is the standard treatment for
+   wide content; the page body itself never scrolls sideways, only this frame.
+
+   The proper fix is still an SVG export, which would stay sharp at any size
+   and let the min-width and the swipe hint both disappear.
+───────────────────────────────────────────────────────────────────────── */
+.cycle-figure { margin: 0 auto 8px; max-width: 900px; }
+.cycle-swipe  { display: none; }
+
+@media (max-width: 699px) {
+  .cycle-figure {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 4px;
+  }
+  .cycle-graphic {
+    display: block;
+    min-width: 820px;      /* below this the beat text stops being readable */
+    margin-bottom: 0;
+  }
+  .cycle-swipe {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--gray);
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+}
