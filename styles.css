@@ -824,3 +824,42 @@ h3 { font-size: 1.2rem; color: var(--body); }
   background: var(--gold-dark);
   color: var(--navy);
 }
+
+/* ── CYCLE: GRAPHIC ON DESKTOP, CARDS ON PHONES ───────────────────────────
+   David's own cycle artwork replaces the hand-built card row, so the website,
+   the decks and the room all show the same picture. It carries the ring, the
+   arrows and the gold WeQ hub, which is why the .cycle-hub pill was removed
+   from the markup.
+
+   IT DOES NOT SURVIVE A PHONE. The source is 1535x1024, so at 375px it renders
+   about 343px wide and the beat descriptions land near 6px. That is
+   unreadable, not merely small. So the graphic shows from 700px up and the
+   text cards take over below it. Same four beats either way, and no visitor
+   ever sees both.
+
+   These rules are appended deliberately: they override the earlier .cycle-grid
+   block at equal specificity rather than editing it, so the card styling stays
+   in one place.
+───────────────────────────────────────────────────────────────────────── */
+.cycle-graphic {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto 8px;
+}
+
+.cycle-cta { display: inline-block; margin-top: 28px; }
+
+.cycle-grid { display: none; }
+
+@media (max-width: 699px) {
+  .cycle-graphic { display: none; }
+  .cycle-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  /* Stacked, so a rightward arrow would point at nothing. */
+  .cycle-card::after { display: none; }
+}
