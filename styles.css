@@ -713,3 +713,96 @@ h3 { font-size: 1.2rem; color: var(--body); }
 
 
 .cycle-cta { display: inline-block; margin-top: 28px; }
+
+/* ── INLINE SVG DIAGRAMS ──────────────────────────────────────────────────
+   The learning cycle and the Tresane model, drawn rather than photographed.
+   A few KB instead of 1MB, crisp at any size, and the words are real indexable
+   text instead of pixels.
+
+   The pattern that makes SVG work where the raster could not: the drawing
+   carries only the SHORT names, which stay legible scaled down to a 327px
+   screen. Every description lives in the HTML legend underneath, where it
+   reflows. That is why there is no swipe frame here.
+───────────────────────────────────────────────────────────────────────── */
+.dia {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: 0 auto 32px;
+  overflow: visible;
+}
+
+.dia-arc path { fill: none; stroke: var(--gold); stroke-width: 3; }
+
+.dia-hub { fill: var(--gold); }
+.dia-hub-a {
+  font-family: var(--font-display);
+  font-size: 40px; font-weight: 700; fill: var(--white); text-anchor: middle;
+}
+.dia-hub-b {
+  font-family: var(--font-body);
+  font-size: 15px; fill: rgba(255,255,255,0.92); text-anchor: middle;
+  letter-spacing: 0.02em;
+}
+
+.dia-node circle { fill: var(--white); stroke: var(--blue); stroke-width: 3; }
+.dia-badge circle { fill: var(--blue); }
+.dia-badge-t text {
+  font-family: var(--font-body);
+  font-size: 18px; font-weight: 700; fill: var(--white); text-anchor: middle;
+}
+
+.dia-name text {
+  font-family: var(--font-body);
+  font-size: 22px; font-weight: 700; fill: var(--navy);
+  text-anchor: middle; letter-spacing: 0.03em;
+}
+
+/* The model: three interlocking domains. No numbers, deliberately. 01/02/03
+   reads as an order, and the model is not sequential: align self is the
+   foundation, which is not the same as the starting line. */
+.dia-ring { stroke-width: 3; }
+.dia-ring--self { fill: rgba(10,106,162,0.10); stroke: var(--blue); }
+.dia-ring--rel  { fill: rgba(223,163,44,0.16); stroke: var(--gold); }
+.dia-ring--team { fill: rgba(26,74,107,0.10); stroke: var(--navy); }
+.dia-mark path  { fill: var(--gold); }
+.dia-mark-t {
+  font-family: var(--font-body);
+  font-size: 17px; font-weight: 700; fill: var(--blue);
+  text-anchor: middle; letter-spacing: 0.10em;
+}
+
+.dia-legend {
+  display: grid;
+  gap: 18px 24px;
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: left;
+}
+.dia-legend-4 { grid-template-columns: repeat(4, 1fr); }
+.dia-legend-3 { grid-template-columns: repeat(3, 1fr); }
+.dia-legend p { font-size: 0.9rem; line-height: 1.7; color: var(--gray); }
+.dia-legend b { color: var(--navy); font-weight: 600; }
+
+.dia-note {
+  max-width: 640px;
+  margin: 28px auto 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--gray);
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .dia-legend-4, .dia-legend-3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .dia-legend-4, .dia-legend-3 { grid-template-columns: 1fr; }
+  .dia { max-width: 100%; }
+  /* Below this the sub-label under WeQ scales to about 8px. The prose above the
+     diagram already says "with WeQ at the center", so drop it rather than ship
+     something nobody can read. */
+  .dia-hub-b { display: none; }
+  .dia-hub-a { font-size: 46px; }
+}
