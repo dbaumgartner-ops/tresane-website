@@ -801,3 +801,26 @@ h3 { font-size: 1.2rem; color: var(--body); }
   .nav-links.nav-open { display: flex; }
   .nav-toggle { display: block; margin-left: auto; }
 }
+
+/* ── PRIMARY CTA ON THE DARK BANDS ────────────────────────────────────────
+   .hero and .cta both use the navy-to-blue gradient, and .btn-primary is
+   #0A6AA2, which is the exact blue the gradient ends on. The result was the
+   site's main conversion button, "Schedule a Call", rendering as plain white
+   text with no visible button beneath it, sitting next to a clearly outlined
+   secondary. It read as a link, or as nothing.
+
+   Gold is already the established treatment for a primary button on a dark
+   band (.weq and .book-text both do it), so this follows the existing pattern
+   rather than introducing a colour. Navy text on gold, because white on
+   #DFA32C does not carry enough contrast to be read comfortably.
+───────────────────────────────────────────────────────────────────────── */
+.hero .btn-primary,
+.cta .btn-primary {
+  background: var(--gold);
+  color: var(--navy);
+}
+.hero .btn-primary:hover,
+.cta .btn-primary:hover {
+  background: var(--gold-dark);
+  color: var(--navy);
+}
