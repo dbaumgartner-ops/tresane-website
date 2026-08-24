@@ -663,3 +663,115 @@ h3 { font-size: 1.2rem; color: var(--body); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* ── LEARNING CYCLE ───────────────────────────────────────────────────────
+   Sits directly after the navy .weq band, so it is light for contrast. The
+   four beats are the canonical names (System, Experience, Scorecard,
+   Learn & Adapt) with WeQ named in the hub, matching the cycle graphic.
+───────────────────────────────────────────────────────────────────────── */
+.cycle {
+  padding: var(--section-pad);
+  background: var(--off-white);
+  text-align: center;
+}
+
+.cycle h2 { margin-bottom: 20px; }
+.cycle .section-intro { margin-bottom: 40px; }
+
+/* The gold hub. In the graphic WeQ sits in the middle of the ring; in a
+   responsive column layout a centered pill above the beats reads the same
+   way and survives a 375px screen, which a real ring does not. */
+.cycle-hub {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  padding: 12px 30px;
+  border-radius: 999px;
+  margin-bottom: 40px;
+  box-shadow: 0 6px 20px rgba(223,163,44,0.28);
+}
+.cycle-hub span {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.cycle-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  counter-reset: beat;
+}
+
+.cycle-card {
+  position: relative;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--blue);
+  border-radius: 12px;
+  padding: 32px 24px 28px;
+  text-align: left;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.cycle-card:hover {
+  box-shadow: 0 8px 32px rgba(10,106,162,0.12);
+  transform: translateY(-2px);
+}
+
+.cycle-num {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.cycle-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+.cycle-card p { color: var(--gray); font-size: 0.92rem; line-height: 1.7; }
+
+/* The arrow between beats, drawn in brand gold rather than the orange the
+   first cycle graphic used. Hidden on the last card and on narrow screens,
+   where the cards stack and a rightward arrow would point at nothing. */
+.cycle-card::after {
+  content: "";
+  position: absolute;
+  top: 46px;
+  right: -14px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid var(--gold);
+  border-right: 2px solid var(--gold);
+  transform: rotate(45deg);
+}
+.cycle-card:last-child::after { display: none; }
+
+.cycle-note {
+  margin-top: 36px;
+  color: var(--gray);
+  font-style: italic;
+  font-family: var(--font-display);
+}
+
+@media (max-width: 900px) {
+  .cycle-grid { grid-template-columns: repeat(2, 1fr); }
+  .cycle-card:nth-child(2)::after { display: none; }
+}
+@media (max-width: 600px) {
+  .cycle-grid { grid-template-columns: 1fr; }
+  .cycle-card::after { display: none; }
+}
