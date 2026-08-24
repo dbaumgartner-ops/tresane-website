@@ -297,40 +297,6 @@ h3 { font-size: 1.2rem; color: var(--body); }
 
 .how-we-work h2 { margin-bottom: 8px; }
 
-.model-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin-bottom: 60px;
-}
-
-.model-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 36px 28px;
-  text-align: left;
-  border-top: 3px solid var(--border);
-  transition: box-shadow 0.2s;
-}
-.model-card:hover { box-shadow: 0 8px 32px rgba(10,106,162,0.1); }
-.model-card--accent { border-top-color: var(--gold); }
-
-.model-number {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  color: var(--gold);
-  margin-bottom: 12px;
-}
-
-.model-card h3 {
-  color: var(--blue);
-  margin-bottom: 12px;
-  font-size: 1.1rem;
-}
-.model-card p { font-size: 0.95rem; color: var(--gray); line-height: 1.7; }
-
 .engage-block {
   background: var(--aqua-bg);
   border-left: 4px solid var(--blue);
@@ -624,7 +590,6 @@ h3 { font-size: 1.2rem; color: var(--body); }
   .weq-grid,
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
 
-  .model-grid,
   .stories-grid { grid-template-columns: 1fr; }
 
   .book-grid { grid-template-columns: 1fr; }
@@ -681,84 +646,7 @@ h3 { font-size: 1.2rem; color: var(--body); }
 /* The gold hub. In the graphic WeQ sits in the middle of the ring; in a
    responsive column layout a centered pill above the beats reads the same
    way and survives a 375px screen, which a real ring does not. */
-.cycle-hub {
-  display: inline-block;
-  background: var(--gold);
-  color: var(--white);
-  font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 0.01em;
-  padding: 12px 30px;
-  border-radius: 999px;
-  margin-bottom: 40px;
-  box-shadow: 0 6px 20px rgba(223,163,44,0.28);
-}
-.cycle-hub span {
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  font-weight: 700;
-  margin-right: 6px;
-}
 
-.cycle-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  counter-reset: beat;
-}
-
-.cycle-card {
-  position: relative;
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-top: 3px solid var(--blue);
-  border-radius: 12px;
-  padding: 32px 24px 28px;
-  text-align: left;
-  transition: box-shadow 0.2s, transform 0.2s;
-}
-.cycle-card:hover {
-  box-shadow: 0 8px 32px rgba(10,106,162,0.12);
-  transform: translateY(-2px);
-}
-
-.cycle-num {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: var(--blue);
-  color: var(--white);
-  font-size: 0.85rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 14px;
-}
-
-.cycle-card h3 {
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  color: var(--navy);
-  margin-bottom: 10px;
-}
-.cycle-card p { color: var(--gray); font-size: 0.92rem; line-height: 1.7; }
-
-/* The arrow between beats, drawn in brand gold rather than the orange the
-   first cycle graphic used. Hidden on the last card and on narrow screens,
-   where the cards stack and a rightward arrow would point at nothing. */
-.cycle-card::after {
-  content: "";
-  position: absolute;
-  top: 46px;
-  right: -14px;
-  width: 8px;
-  height: 8px;
-  border-top: 2px solid var(--gold);
-  border-right: 2px solid var(--gold);
-  transform: rotate(45deg);
-}
-.cycle-card:last-child::after { display: none; }
 
 .cycle-note {
   margin-top: 36px;
@@ -768,12 +656,10 @@ h3 { font-size: 1.2rem; color: var(--body); }
 }
 
 @media (max-width: 900px) {
-  .cycle-grid { grid-template-columns: repeat(2, 1fr); }
-  .cycle-card:nth-child(2)::after { display: none; }
+
 }
 @media (max-width: 600px) {
-  .cycle-grid { grid-template-columns: 1fr; }
-  .cycle-card::after { display: none; }
+
 }
 
 /* ── NAV BREAKPOINT ───────────────────────────────────────────────────────
@@ -825,78 +711,5 @@ h3 { font-size: 1.2rem; color: var(--body); }
   color: var(--navy);
 }
 
-/* ── CYCLE: GRAPHIC ON DESKTOP, CARDS ON PHONES ───────────────────────────
-   David's own cycle artwork replaces the hand-built card row, so the website,
-   the decks and the room all show the same picture. It carries the ring, the
-   arrows and the gold WeQ hub, which is why the .cycle-hub pill was removed
-   from the markup.
-
-   IT DOES NOT SURVIVE A PHONE. The source is 1535x1024, so at 375px it renders
-   about 343px wide and the beat descriptions land near 6px. That is
-   unreadable, not merely small. So the graphic shows from 700px up and the
-   text cards take over below it. Same four beats either way, and no visitor
-   ever sees both.
-
-   These rules are appended deliberately: they override the earlier .cycle-grid
-   block at equal specificity rather than editing it, so the card styling stays
-   in one place.
-───────────────────────────────────────────────────────────────────────── */
-.cycle-graphic {
-  display: block;
-  width: 100%;
-  max-width: 900px;
-  height: auto;
-  margin: 0 auto 8px;
-}
 
 .cycle-cta { display: inline-block; margin-top: 28px; }
-
-.cycle-grid { display: none; }
-
-@media (max-width: 699px) {
-  .cycle-graphic { display: none; }
-  .cycle-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  /* Stacked, so a rightward arrow would point at nothing. */
-  .cycle-card::after { display: none; }
-}
-
-/* ── CYCLE GRAPHIC ON PHONES ──────────────────────────────────────────────
-   David asked for the graphic on every screen, not the text cards, so the
-   cards are gone. The problem that made me hide it on phones is real though:
-   the source is 1535x1024, and squeezed into 375px the beat descriptions land
-   near 6px, which is unreadable rather than small.
-
-   So it stays the graphic everywhere, and on narrow screens it sits in a
-   horizontally scrollable frame at a legible minimum width. The reader swipes
-   the diagram instead of squinting at it. This is the standard treatment for
-   wide content; the page body itself never scrolls sideways, only this frame.
-
-   The proper fix is still an SVG export, which would stay sharp at any size
-   and let the min-width and the swipe hint both disappear.
-───────────────────────────────────────────────────────────────────────── */
-.cycle-figure { margin: 0 auto 8px; max-width: 900px; }
-.cycle-swipe  { display: none; }
-
-@media (max-width: 699px) {
-  .cycle-figure {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    margin-bottom: 4px;
-  }
-  .cycle-graphic {
-    display: block;
-    min-width: 820px;      /* below this the beat text stops being readable */
-    margin-bottom: 0;
-  }
-  .cycle-swipe {
-    display: block;
-    font-size: 0.78rem;
-    color: var(--gray);
-    font-style: italic;
-    margin-bottom: 24px;
-  }
-}
