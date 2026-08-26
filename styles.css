@@ -584,7 +584,10 @@ h3 { font-size: 1.2rem; color: var(--body); }
 }
 
 .footer-brand img { margin-bottom: 12px; }
-.footer-tagline { font-size: 0.85rem; color: var(--gold-on-dark); }   /* 14px: was 4.21 */
+/* NOT gold. Gold in the mark is identity; gold again in the words a few
+   pixels below is the same colour doing a second job, and the mark is what
+   loses. White at 0.75 reads as a caption and measures 6.3 on the navy. */
+.footer-tagline { font-size: 0.85rem; color: rgba(255,255,255,0.75); }
 
 .footer-links h3, .footer-contact h3 {
   font-family: var(--font-body);
