@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# The lets-chat pages are sent one to one and carry noindex in the markup.
+Sitemap: https://www.tresane.com/sitemap.xml

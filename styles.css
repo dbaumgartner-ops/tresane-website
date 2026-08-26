@@ -977,3 +977,134 @@ picture { display: contents; }
   .chat-page--tinted .chat-body { padding: 0 20px; }
   .chat-page--tinted .chat-photo { margin-top: -56px; }
 }
+
+
+/* == BLOG ==================================================================
+   The THIRD page type (WeQ_Web_Standards.md s7). Unlike a focused page it
+   KEEPS the nav and WANTS to be indexed, because a reader may arrive cold from
+   search and then have somewhere to go. It inherits the colour and image rules
+   unchanged.
+========================================================================== */
+.blog-head {
+  background: var(--off-white);
+  border-bottom: 1px solid var(--border);
+  padding: 56px 0 44px;
+  text-align: center;
+}
+.blog-head h1 { color: var(--blue); margin-bottom: 12px; }
+.blog-head .section-intro { margin: 0 auto; max-width: 620px; }
+
+/* Domain filters. Buttons, not links: they change what is shown on THIS page
+   rather than navigating, and a link that does not navigate lies to a screen
+   reader and to anyone middle-clicking it. */
+.blog-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 32px 0 28px;
+}
+.filter {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--white);
+  color: var(--gray);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter:hover { border-color: var(--blue); color: var(--blue); }
+.filter.is-on { background: var(--blue); border-color: var(--blue); color: var(--white); }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding-bottom: 72px;
+}
+.card {
+  display: block;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+.card:hover {
+  border-color: var(--blue);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(10,106,162,0.08);
+}
+.card h2 {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  line-height: 1.35;
+  color: var(--navy);
+  margin: 12px 0 10px;
+}
+.card-ex { font-size: 0.9rem; line-height: 1.6; color: var(--gray); margin-bottom: 14px; }
+.card-meta { font-size: 0.78rem; color: var(--gray); margin: 0; }
+.blog-empty { text-align: center; color: var(--gray); padding: 40px 0 80px; }
+
+/* The domain chip. --gold is a BACKGROUND here, never letters, so the text on
+   it uses --ink-on-gold. See the token table in the standards. */
+.chip {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+.chip--self          { background: var(--aqua-bg);          color: var(--blue); }
+.chip--relationships { background: var(--gold);             color: var(--ink-on-gold); }
+.chip--teams         { background: rgba(26,74,107,0.10);    color: var(--navy); }
+
+/* == A POST ================================================================ */
+.post {
+  max-width: 680px;     /* a measure, not the container: ~70 characters */
+  margin: 0 auto;
+  padding: 40px 24px 72px;
+}
+.post-head { margin-bottom: 34px; }
+.post-back { font-size: 0.85rem; color: var(--gray); }
+.post-back:hover { color: var(--blue); }
+.post-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.82rem;
+  color: var(--gray);
+  margin: 20px 0 14px;
+}
+.post h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 4vw, 2.3rem);
+  line-height: 1.25;
+  color: var(--blue);
+}
+.post h2 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--navy);
+  margin: 38px 0 12px;
+}
+.post p { font-size: 1.04rem; line-height: 1.8; margin-bottom: 20px; }
+
+.post-end {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 3px solid var(--gold);
+  text-align: center;
+}
+.post-end p { font-size: 1rem; color: var(--navy); margin-bottom: 18px; }
+
+@media (max-width: 560px) {
+  .cards { grid-template-columns: 1fr; }
+  .post { padding: 28px 20px 56px; }
+}
