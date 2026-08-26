@@ -3,7 +3,7 @@ title: "When the Story Leaders Carry About Themselves Begins to Shift"
 date: 2026-04-13
 domain: Align Self
 slug: when-the-story-leaders-carry-about-themselves-begins-to-shift
-excerpt: "Those expectations shape how situations are interpreted, how disagreement is experienced, and what possibilities feel available in complex environments."
+excerpt: "Leadership pressure rarely begins with workload alone."
 words: 877
 source: Wave 5 Cycle 2 Wk 1
 written_for: 2026-03-09

@@ -3,7 +3,7 @@ title: "Clarity in the Chaos: What Leadership Coaching Reveals About Staying Gro
 date: 2026-03-23
 domain: Align Self
 slug: clarity-in-the-chaos-what-leadership-coaching-reveals-about-staying-gr
-excerpt: "Some weeks arrive already loud. Calendars compress. Messages stack. Decisions wait in the hallway. The work keeps moving, and life keeps moving with it. In those moments, clarity in leadership can feel less like a skill "
+excerpt: "Some weeks arrive already loud. Calendars compress. Messages stack. Decisions wait in the hallway. The work keeps moving, and life keeps moving with it."
 words: 1015
 source: Wave 5 Cycle 1 Wk 1
 written_for: 2026-02-16

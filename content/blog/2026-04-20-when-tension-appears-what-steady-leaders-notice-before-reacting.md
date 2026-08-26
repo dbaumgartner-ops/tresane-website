@@ -3,7 +3,7 @@ title: "When Tension Appears, What Steady Leaders Notice Before Reacting"
 date: 2026-04-20
 domain: Align Relationships
 slug: when-tension-appears-what-steady-leaders-notice-before-reacting
-excerpt: "Leaders enter conversations with expectations about how others should behave, how communication should unfold, and how decisions should be made. When those expectations collide with reality, tension can appear quickly."
+excerpt: "Tension inside organizations rarely begins with conflict itself."
 words: 692
 source: Wave 5 Cycle 2 Wk 2
 written_for: 2026-03-16

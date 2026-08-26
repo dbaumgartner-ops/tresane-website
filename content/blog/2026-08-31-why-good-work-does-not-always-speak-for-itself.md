@@ -3,7 +3,7 @@ title: "Why Good Work Does Not Always Speak for Itself"
 date: 2026-08-31
 domain: Align Teams
 slug: why-good-work-does-not-always-speak-for-itself
-excerpt: "Team leadership Lexington KY managers often avoid outside conversations, mistaking counsel for politics and missing real influence.URL Slug: team-leadership-lexington-ky"
+excerpt: "A recurring pattern shows up often enough in team leadership Lexington KY conversations to be worth naming directly."
 words: 633
 source: Wave 6 Cycle 2 Wk 3
 written_for: 2026-07-27

@@ -3,10 +3,12 @@ title: "Growing Without Losing Who You Are: Why Team Expectations Matter in Expa
 date: 2026-05-18
 domain: Align Teams
 slug: growing-without-losing-who-you-are-why-team-expectations-matter-in-exp
-excerpt: "How a Central Kentucky female-owned business uses team expectations to protect customer experience during growth."
+excerpt: "A female-owned entrepreneurial business in Central Kentucky recently faced a moment that many growing companies eventually encounter."
 words: 527
 source: Wave 5 Cycle 3 Wk 3
 written_for: 2026-04-13
+
+  - short (469 words), fine if it tells a story
 review:
   - short (469 words), fine if it tells a story
 ---

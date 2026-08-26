@@ -3,7 +3,7 @@ title: "Feedback Without Losing Yourself, How Leaders Stay Open and Grounded"
 date: 2026-03-30
 domain: Align Relationships
 slug: feedback-without-losing-yourself-how-leaders-stay-open-and-grounded
-excerpt: "Feedback rarely arrives in a clean moment. It often shows up layered into busy days, competing priorities, and relationships that already carry history. Sometimes it lands gently. Other times it arrives sideways, incompl"
+excerpt: "Feedback rarely arrives in a clean moment. It often shows up layered into busy days, competing priorities, and relationships that already carry history. Sometimes it lands gently."
 words: 902
 source: Wave 5 Cycle 1 Wk 2
 written_for: 2026-02-23

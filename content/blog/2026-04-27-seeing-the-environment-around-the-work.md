@@ -7,6 +7,8 @@ excerpt: "These elements remain essential. Yet over time, many leaders discover 
 words: 713
 source: Wave 5 Cycle 2 Wk 3
 written_for: 2026-03-23
+
+  - opens mid-thought, the sentence before it may have been lost
 review:
   - opens mid-thought, the sentence before it may have been lost
 ---

@@ -3,7 +3,7 @@ title: "How Teams Improve Performance When Systems Replace Assumptions"
 date: 2026-06-08
 domain: Align Teams
 slug: how-teams-improve-performance-when-systems-replace-assumptions
-excerpt: "Executive coaching Central Kentucky insights on team systems, accountability, and reducing repeated breakdowns."
+excerpt: "The Pattern Beneath the Work"
 words: 653
 source: Wave 5 Cycle 4 Wk 3
 written_for: 2026-05-04

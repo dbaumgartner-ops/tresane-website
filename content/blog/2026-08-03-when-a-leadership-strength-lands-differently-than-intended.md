@@ -3,7 +3,7 @@ title: "When a Leadership Strength Lands Differently Than Intended"
 date: 2026-08-03
 domain: Align Relationships
 slug: when-a-leadership-strength-lands-differently-than-intended
-excerpt: "There is a particular kind of leadership pattern that does not announce itself as a problem. It shows up quietly, through the accumulated experience of people on the receiving end of something the leader has always under"
+excerpt: "There is a particular kind of leadership pattern that does not announce itself as a problem."
 words: 788
 source: Wave 6 Cycle 1 Wk 2
 written_for: 2026-06-29

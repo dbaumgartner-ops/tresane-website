@@ -3,7 +3,7 @@ title: "Values Under Pressure, What Leaders Default to When It Matters Most"
 date: 2026-05-25
 domain: Align Self
 slug: values-under-pressure-what-leaders-default-to-when-it-matters-most
-excerpt: "A leader reflected on time spent as a high level college athlete, where expectations were clear, intensity was shared, and performance defined the environment. That experience shaped how effort was interpreted and how st"
+excerpt: "The Pattern Beneath the Moment"
 words: 824
 source: Wave 5 Cycle 4 Wk 1
 written_for: 2026-04-20

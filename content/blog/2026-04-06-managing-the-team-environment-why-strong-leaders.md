@@ -3,7 +3,7 @@ title: "Managing the Team Environment, Why Strong Leaders"
 date: 2026-04-06
 domain: Align Teams
 slug: managing-the-team-environment-why-strong-leaders
-excerpt: "Many teams appear busy, coordinated, and productive, yet something feels slightly off. Meetings move quickly. Tasks are assigned. Decisions are made. Still, tension lingers beneath the surface. People work hard, yet alig"
+excerpt: "Many teams appear busy, coordinated, and productive, yet something feels slightly off. Meetings move quickly. Tasks are assigned. Decisions are made. Still, tension lingers beneath the surface."
 words: 779
 source: Wave 5 Cycle 1 Wk 3
 written_for: 2026-03-02

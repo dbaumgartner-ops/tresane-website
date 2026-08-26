@@ -3,10 +3,12 @@ title: "When a Team Stops Assuming and Starts Asking"
 date: 2026-08-24
 domain: Align Relationships
 slug: when-a-team-stops-assuming-and-starts-asking
-excerpt: "A team development Lexington KY story about what changes when curiosity replaces assumption inside a working relationship.URL Slug: team-development-lexington-ky"
+excerpt: "There is an entrepreneurial business in Central Kentucky that offers a useful example of team development leaders will likely recognize in their own organizations."
 words: 478
 source: Wave 6 Cycle 2 Wk 2
 written_for: 2026-07-20
+
+  - short (448 words), fine if it tells a story
 review:
   - short (448 words), fine if it tells a story
 ---

@@ -3,7 +3,7 @@ title: "Leadership Identity: How Perspective Shapes Presence Over Time"
 date: 2026-05-04
 domain: Align Self
 slug: leadership-identity-how-perspective-shapes-presence-over-time
-excerpt: "Executive coaching insights from Lexington on how leadership identity and emotional patterns shape team expectations."
+excerpt: "A recent executive coaching conversation in Lexington brought forward a leadership pattern that shows up more often than many leaders realize."
 words: 544
 source: Wave 5 Cycle 3 Wk 1
 written_for: 2026-03-30

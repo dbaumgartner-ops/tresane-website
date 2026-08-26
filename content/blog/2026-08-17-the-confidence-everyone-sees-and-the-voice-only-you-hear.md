@@ -3,7 +3,7 @@ title: "The Confidence Everyone Sees, and the Voice Only You Hear"
 date: 2026-08-17
 domain: Align Self
 slug: the-confidence-everyone-sees-and-the-voice-only-you-hear
-excerpt: "What executive presence Lexington KY leaders show publicly often hides a quieter internal check most people never see.URL Slug: executive-presence-lexington-ky"
+excerpt: "There is a particular kind of executive presence that gets noticed often in Lexington KY leadership circles. Composed. Accomplished."
 words: 603
 source: Wave 6 Cycle 2 Wk 1
 written_for: 2026-07-13

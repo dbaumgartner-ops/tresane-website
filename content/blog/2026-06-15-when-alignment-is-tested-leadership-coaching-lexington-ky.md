@@ -1,14 +1,15 @@
 ---
-title: "When Alignment Is Tested: Leadership Coaching Lexington KY"
+title: "When Alignment Is Tested"
 date: 2026-06-15
 domain: Align Self
-slug: when-alignment-is-tested-leadership-coaching-lexington-ky
-excerpt: "Leadership coaching Lexington KY explores how leaders find alignment even when people and systems don't respond the way they should."
+slug: when-alignment-is-tested
+excerpt: "One of the most consistent patterns that surfaces is the gap between how a situation was expected to unfold and how it actually did."
 words: 890
 source: Wave 5 Cycle 5 Wk 1
 written_for: 2026-05-11
-review:
+
   - location keyword in the title (changing it changes the URL)
+review: []
 ---
 One of the most consistent patterns that surfaces is the gap between how a situation was expected to unfold and how it actually did. Leaders who are doing everything right, communicating clearly, holding themselves accountable, and staying focused on outcomes, sometimes find themselves in environments that do not respond the way they should. What happens next tends to reveal something important about where that leader actually is in their development.
 

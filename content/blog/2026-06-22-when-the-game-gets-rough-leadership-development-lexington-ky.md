@@ -1,14 +1,15 @@
 ---
-title: "When the Game Gets Rough: Leadership Development Lexington KY"
+title: "When the Game Gets Rough"
 date: 2026-06-22
 domain: Align Relationships
-slug: when-the-game-gets-rough-leadership-development-lexington-ky
-excerpt: "Leadership development Lexington KY explores how leaders stay anchored to a vision when relationships get complicated and the calls don't go their way."
+slug: when-the-game-gets-rough
+excerpt: "One of the patterns that surfaces most consistently is the moment when a leader has already done everything right and the situation still does not respond the way it should. The internal work is done."
 words: 894
 source: Wave 5 Cycle 5 Wk 2
 written_for: 2026-05-18
-review:
+
   - location keyword in the title (changing it changes the URL)
+review: []
 ---
 One of the patterns that surfaces most consistently is the moment when a leader has already done everything right and the situation still does not respond the way it should. The internal work is done. The conversation has happened. The right people have been brought in. And the dynamic continues anyway. What a leader does in that moment, how they stay oriented toward the outcome without losing themselves in the frustration of the process, tends to reveal something that smoother circumstances rarely can.
 

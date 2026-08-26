@@ -1,14 +1,15 @@
 ---
-title: "When the Team Outgrows Itself: Team Development Lexington KY"
+title: "When the Team Outgrows Itself"
 date: 2026-06-29
 domain: Align Teams
-slug: when-the-team-outgrows-itself-team-development-lexington-ky
-excerpt: "Team development Lexington KY: how a 40-year business learned to embrace difference and build a team that could grow beyond its original walls."
+slug: when-the-team-outgrows-itself
+excerpt: "One of the most recognizable patterns is the moment when a business outgrows the people who built it, not because those people are no longer capable, but because the work has expanded beyond what a sm"
 words: 1072
 source: Wave 5 Cycle 5 Wk 3
 written_for: 2026-05-25
-review:
+
   - location keyword in the title (changing it changes the URL)
+review: []
 ---
 One of the most recognizable patterns is the moment when a business outgrows the people who built it, not because those people are no longer capable, but because the work has expanded beyond what a small group of deeply familiar individuals can carry alone. That moment does not arrive loudly. It tends to surface through friction, through missed steps, through the quiet exhaustion of a system that was built for a different size of operation trying to hold a larger one together.
 

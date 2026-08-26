@@ -3,7 +3,7 @@ title: "How Leaders Influence Tone, Trust, and Alignment Without Authority"
 date: 2026-06-01
 domain: Align Relationships
 slug: how-leaders-influence-tone-trust-and-alignment-without-authority
-excerpt: "Executive coaching Central Kentucky insights on influence, tone, and trust through everyday leadership patterns."
+excerpt: "The Pattern Beneath the Interaction"
 words: 696
 source: Wave 5 Cycle 4 Wk 2
 written_for: 2026-04-27

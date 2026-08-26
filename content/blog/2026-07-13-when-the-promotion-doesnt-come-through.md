@@ -3,7 +3,7 @@ title: "When the Promotion Doesn't Come Through"
 date: 2026-07-13
 domain: Align Relationships
 slug: when-the-promotion-doesnt-come-through
-excerpt: "Leadership development Lexington KY leaders trust begins when feedback surfaces what a career has actually been about. (111)"
+excerpt: "There is a particular kind of week that leaders in Central Kentucky know without needing it described. The week when something you were quietly hoping for does not come through."
 words: 1132
 source: Wave 5 Cycle 6 Wk 2
 written_for: 2026-06-08

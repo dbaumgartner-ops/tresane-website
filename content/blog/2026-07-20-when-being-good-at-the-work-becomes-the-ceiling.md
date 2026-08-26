@@ -3,7 +3,7 @@ title: "When Being Good at the Work Becomes the Ceiling"
 date: 2026-07-20
 domain: Align Teams
 slug: when-being-good-at-the-work-becomes-the-ceiling
-excerpt: "Team development Lexington KY leaders trust begins when capability shifts from doing the work to building the environment. (116)"
+excerpt: "Central Kentucky has always produced a particular kind of leader. Technical, precise, results-oriented."
 words: 1201
 source: Wave 5 Cycle 6 Wk 3
 written_for: 2026-06-15

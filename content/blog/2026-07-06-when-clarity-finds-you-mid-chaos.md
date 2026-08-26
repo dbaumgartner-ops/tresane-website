@@ -3,7 +3,7 @@ title: "When Clarity Finds You Mid-Chaos"
 date: 2026-07-06
 domain: Align Self
 slug: when-clarity-finds-you-mid-chaos
-excerpt: "Clarity rarely waits for calm. Leadership coaching Lexington KY leaders trust builds in the middle of difficulty. (101)"
+excerpt: "There is a particular kind of exhaustion that leaders in Central Kentucky know well. Not the tiredness that comes from a hard day."
 words: 1029
 source: Wave 5 Cycle 6 Wk 1
 written_for: 2026-06-01
