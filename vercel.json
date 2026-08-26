@@ -1,14 +1,36 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
-    { "source": "/lets-chat-30", "destination": "https://weqleader.tresane.com/schedule", "permanent": true },
-    { "source": "/lets-chat-30/", "destination": "https://weqleader.tresane.com/schedule", "permanent": true },
-    { "source": "/lets-meet-30", "destination": "https://weqleader.tresane.com/schedule", "permanent": true },
-    { "source": "/lets-meet-30/", "destination": "https://weqleader.tresane.com/schedule", "permanent": true },
-    { "source": "/lets-chat-25", "destination": "https://weqleader.tresane.com/schedule", "permanent": true },
-    { "source": "/lets-chat-25/", "destination": "https://weqleader.tresane.com/schedule", "permanent": true },
-
-    { "source": "/tresane-model", "destination": "/#how-we-work", "permanent": true },
-    { "source": "/tresane-model/", "destination": "/#how-we-work", "permanent": true }
-  ]
+    {
+      "source": "/lets-meet-30",
+      "destination": "/lets-chat-30",
+      "permanent": true
+    },
+    {
+      "source": "/lets-meet-30/",
+      "destination": "/lets-chat-30",
+      "permanent": true
+    },
+    {
+      "source": "/lets-chat-25",
+      "destination": "/lets-chat-30",
+      "permanent": true
+    },
+    {
+      "source": "/lets-chat-25/",
+      "destination": "/lets-chat-30",
+      "permanent": true
+    },
+    {
+      "source": "/tresane-model",
+      "destination": "/#how-we-work",
+      "permanent": true
+    },
+    {
+      "source": "/tresane-model/",
+      "destination": "/#how-we-work",
+      "permanent": true
+    }
+  ],
+  "cleanUrls": true
 }
