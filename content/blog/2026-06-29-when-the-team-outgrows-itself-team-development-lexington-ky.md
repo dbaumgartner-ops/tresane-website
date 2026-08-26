@@ -11,23 +11,11 @@ review:
   - location keyword in the title
   - location phrase repeated 6x in the prose
 ---
-BLOG — Thursday, May 28
-
-Align Teams — Fostering Team Learning and Resilience
-
-(59 characters — trim one word if needed:) Team Development Lexington KY: When Growth Changes Everything
-
-(60 characters)
-
-(143 characters — trim to:)
+Fostering Team Learning and Resilience
 
 Team development Lexington KY explores how a legacy business built resilience by learning to hold difference and grow beyond familiar walls.
 
-(139 characters — trim to:)
-
 Team development Lexington KY: how a legacy business built resilience by learning to hold difference and grow.
-
-(110 characters)
 
 Graphic Phrase: A Team That Learns Together Grows Beyond What Any One Person Can Hold
 

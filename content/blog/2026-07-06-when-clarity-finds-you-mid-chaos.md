@@ -10,9 +10,7 @@ written_for: 2026-06-01
 review:
   - location phrase repeated 4x in the prose
 ---
-WordPress notes:
-
-Graphic phrase — Footing forms in the middle. Not after. — is your featured image text.
+Graphic phrase, Footing forms in the middle. Not after., is your featured image text.
 
 Graphic Phrase: Footing forms in the middle. Not after.
 
@@ -36,7 +34,7 @@ The difference matters, because leaders who are waiting for the first kind of cl
 
 Expanded Perspective
 
-A leader described it recently as quicksand. Everything hitting at once, none of it pausing, no obvious ground beneath any of it. She came into a conversation shoulders-deep, barely keeping her head above it. There was no obvious footing anywhere. And then somewhere in the middle of the call, without the circumstances changing at all, something shifted. By the end she was on her tippy-toes. Not out. Not clear. Just slightly less under — enough to breathe, enough to feel the difference.
+A leader described it recently as quicksand. Everything hitting at once, none of it pausing, no obvious ground beneath any of it. She came into a conversation shoulders-deep, barely keeping her head above it. There was no obvious footing anywhere. And then somewhere in the middle of the call, without the circumstances changing at all, something shifted. By the end she was on her tippy-toes. Not out. Not clear. Just slightly less under, enough to breathe, enough to feel the difference.
 
 A follow-up note arrived shortly after. She read it the day it came and said it helped. Not because it solved anything. Because it named something she already knew but had not yet let herself hold: that the awareness showing up in the middle of the difficulty was not a sign of failure. It was the beginning of something.
 

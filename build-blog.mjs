@@ -157,7 +157,7 @@ fs.writeFileSync(path.join(OUT, 'index.html'),
   '    <header class="blog-head">\n      <div class="container">\n' +
   '        <div class="section-label">Writing</div>\n' +
   '        <h1>Notes on leading</h1>\n' +
-  '        <p class="section-intro">A weekly reflection, written across the three domains of the Tresane Model. No tactics and no listicles, just what leaders are actually navigating.</p>\n' +
+  '        <p class="section-intro">A weekly reflection, written across the three domains of the Tresane Model. Not advice and not a checklist. What leaders are actually navigating.</p>\n' +
   '      </div>\n    </header>\n\n' +
   '    <div class="container">\n' +
   '      <div class="blog-filters" role="group" aria-label="Filter posts by domain">\n' +

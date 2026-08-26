@@ -3,7 +3,7 @@ title: "When Purpose Becomes Real in Central Kentucky Teams"
 date: 2026-08-10
 domain: Align Teams
 slug: when-purpose-becomes-real-in-central-kentucky-teams
-excerpt: "Team development Lexington KY: purpose clarity rarely arrives before the work begins. It develops as the team discovers what it is actually for. (144 characters)"
+excerpt: "There is a particular feeling that teams describe when purpose clarity finally arrives. It does not tend to feel like a breakthrough. It tends to feel like something settling. Like the words that were written at the begi"
 words: 867
 source: Wave 6 Cycle 1 Wk 3
 written_for: 2026-07-06

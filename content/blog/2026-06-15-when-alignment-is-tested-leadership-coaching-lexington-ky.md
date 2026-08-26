@@ -10,8 +10,6 @@ written_for: 2026-05-11
 review:
   - location keyword in the title
 ---
-(119 characters)
-
 Graphic Phrase (for your featured image inside WordPress): Alignment Does Not Require a Perfect Environment
 
 Full Blog:

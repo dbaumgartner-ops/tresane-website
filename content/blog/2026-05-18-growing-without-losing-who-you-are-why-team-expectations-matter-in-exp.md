@@ -32,11 +32,7 @@ leadership teams Kentucky
 
 Central Kentucky business growth
 
-120 Character Meta Description
-
 How a Central Kentucky female-owned business uses team expectations to protect customer experience during growth.
-
-(119 characters)
 
 FULL SEO BLOG
 

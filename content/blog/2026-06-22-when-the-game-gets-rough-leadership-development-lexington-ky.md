@@ -11,17 +11,9 @@ review:
   - location keyword in the title
   - location phrase repeated 5x in the prose
 ---
-BLOG — Thursday, May 21
-
-Align Relationships — Anchored to a Vision Amid Life's Curveballs
-
-(58 characters)
-
-(151 characters — trim to:)
+Anchored to a Vision Amid Life's Curveballs
 
 Leadership development Lexington KY: staying anchored when relationships get complicated and the calls don't go your way.
-
-(119 characters)
 
 Graphic Phrase: The Foul Gets Called. The Leader Stays in the Game.
 

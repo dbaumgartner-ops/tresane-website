@@ -12,9 +12,9 @@ review:
 ---
 Graphic Phrase: The job changed. The habit didn't. That's the ceiling.
 
-Central Kentucky has always produced a particular kind of leader. Technical, precise, results-oriented. Someone who came up through the work itself — engineering, operations, quality, logistics — and got noticed because they were exceptionally good at it. These are the leaders who get selected, developed, and asked to take on more. They move up because they deliver. And at a certain point, without much announcement, the thing that moved them up becomes the thing standing between them and the next level of impact.
+Central Kentucky has always produced a particular kind of leader. Technical, precise, results-oriented. Someone who came up through the work itself, engineering, operations, quality, logistics, and got noticed because they were exceptionally good at it. These are the leaders who get selected, developed, and asked to take on more. They move up because they deliver. And at a certain point, without much announcement, the thing that moved them up becomes the thing standing between them and the next level of impact.
 
-Team development in Lexington KY and across Central Kentucky tends to surface this pattern quickly. Not because the leaders here are struggling more than leaders elsewhere. Because the industries that anchor this region — manufacturing, healthcare systems, supply chain, technical operations — produce a high concentration of leaders whose entire professional identity is built around their own capability. That identity is real and it earned everything it built. It also has a ceiling. And the ceiling tends to become visible right around the time the role stops rewarding the doing and starts requiring something else entirely.
+Team development in Lexington KY and across Central Kentucky tends to surface this pattern quickly. Not because the leaders here are struggling more than leaders elsewhere. Because the industries that anchor this region, manufacturing, healthcare systems, supply chain, technical operations, produce a high concentration of leaders whose entire professional identity is built around their own capability. That identity is real and it earned everything it built. It also has a ceiling. And the ceiling tends to become visible right around the time the role stops rewarding the doing and starts requiring something else entirely.
 
 Naming the Pattern
 
@@ -34,13 +34,13 @@ The data on this is worth sitting with. Research on high performing teams consis
 
 Statements feel faster. Decisions feel cleaner. Answers feel responsible. Each one, repeated across hundreds of interactions, gradually transfers the thinking from the team to the leader. Until the leader is carrying what was never meant to be carried alone. Until the team that was supposed to grow has instead become dependent. Until the ceiling is not the organization's limit. It is the leader's bandwidth.
 
-What tends to shift in these conversations is the recognition that there are three distinct roles a leader at this level needs to move between. The role of coach, where the job is questions — helping people think to the next level rather than telling them what to think. The role of mentor, where the job is offering perspective from experience — something seen in another context, something tried, something learned that does not have to be relearned from scratch. And the role of manager, where expectations, standards, and non-negotiables live.
+What tends to shift in these conversations is the recognition that there are three distinct roles a leader at this level needs to move between. The role of coach, where the job is questions, helping people think to the next level rather than telling them what to think. The role of mentor, where the job is offering perspective from experience, something seen in another context, something tried, something learned that does not have to be relearned from scratch. And the role of manager, where expectations, standards, and non-negotiables live.
 
 Most technical leaders are wearing the managing hat the vast majority of the time. Not because they do not care about developing their people. Because nobody named the other two hats or told them the ratio between the three is as consequential as anything else they manage.
 
 What Steady Leaders Tend to Notice
 
-Leaders who make this shift most durably tend to apply the same precision to the human environment that they applied to technical problems throughout their careers. The same systems thinking that solved complex engineering challenges begins to see team dynamics with similar clarity. Purpose, stakeholder awareness, internal processes, shared learning — these are not soft variables. They are the components of a system. And a system can be managed with the same intentionality brought to any other complex environment.
+Leaders who make this shift most durably tend to apply the same precision to the human environment that they applied to technical problems throughout their careers. The same systems thinking that solved complex engineering challenges begins to see team dynamics with similar clarity. Purpose, stakeholder awareness, internal processes, shared learning, these are not soft variables. They are the components of a system. And a system can be managed with the same intentionality brought to any other complex environment.
 
 What tends to become visible over time is that the coaching hat and the mentoring hat are not departures from the real work. They are how the environment gets built. Every question asked instead of answered develops a thinker. Every piece of mentoring offered from experience transfers capability that does not have to be rebuilt from scratch. Every time a leader steps back from the solving and tends to the conditions instead, the team gets slightly more capable of carrying the work without waiting for direction.
 
@@ -58,6 +58,4 @@ That is where team development in Lexington KY does its most durable work. Not i
 
 This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.
 
-WordPress notes:
-
-Graphic phrase — The job changed. The habit didn't. That's the ceiling. — is your featured image text. That one will stop a technical leader mid-scroll.
+Graphic phrase, The job changed. The habit didn't. That's the ceiling., is your featured image text. That one will stop a technical leader mid-scroll.

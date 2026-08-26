@@ -30,11 +30,7 @@ leadership training Central Kentucky
 
 organizational change leadership
 
-120 Character Meta Description
-
 Leadership training in Central Kentucky: how curiosity and influence build trust and drive change over time.
-
-(119 characters)
 
 FULL BLOG
 

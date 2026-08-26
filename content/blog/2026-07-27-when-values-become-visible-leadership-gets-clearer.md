@@ -3,7 +3,7 @@ title: "When Values Become Visible, Leadership Gets Clearer"
 date: 2026-07-27
 domain: Align Self
 slug: when-values-become-visible-leadership-gets-clearer
-excerpt: "Leadership coaching Lexington KY: when values become visible, decisions get more honest and leadership gets more legible over time. (134 characters — trimming)"
+excerpt: "There is a particular kind of clarity that does not arrive all at once. It develops gradually, through a series of moments that each seem small on their own, until something that was always operating beneath the surface "
 words: 793
 source: Wave 6 Cycle 1 Wk 1
 written_for: 2026-06-22
