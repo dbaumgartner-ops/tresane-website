@@ -5,6 +5,7 @@
 // show what was lost. Edit the .md, then run `node build-blog.mjs`.
 import fs from 'node:fs'
 import path from 'node:path'
+import { nav, footer, chromeScript } from './site-chrome.mjs'
 
 const SRC = 'content/blog'
 const OUT = 'blog'
@@ -53,34 +54,12 @@ function head(title, desc, canonical) {
     '  <meta name="theme-color" content="#0A6AA2" />\n' +
     '  <link rel="stylesheet" href="/styles.css" />\n' +
     '</head>\n<body>\n' +
-    '  <nav class="nav">\n    <div class="nav-inner">\n' +
-    '      <a href="/" class="nav-logo">\n' +
-    '        <img src="/assets/logo-simple.png" alt="Tresane" width="220" height="133" />\n' +
-    '      </a>\n' +
-    '      <ul class="nav-links">\n' +
-    '        <li><a href="/#how-we-work">How We Work</a></li>\n' +
-    '        <li><a href="/#weq">WeQ</a></li>\n' +
-    '        <li><a href="/blog">Blog</a></li>\n' +
-    '        <li><a href="/#about">About</a></li>\n' +
-    '        <li><a href="/#contact" class="nav-cta">Get Started</a></li>\n' +
-    '      </ul>\n' +
-    '    </div>\n  </nav>\n'
+    nav() + '\n'
 }
 
-const FOOT = '\n  <footer class="footer">\n    <div class="container">\n' +
-  '      <div class="chat-footer-grid">\n' +
-  '        <div class="footer-brand">\n' +
-  '          <img src="/assets/logo-simple.png" alt="Tresane" width="220" height="133" />\n' +
-  '          <p class="footer-tagline">Bringing Workplaces Together<sup>&reg;</sup></p>\n' +
-  '        </div>\n' +
-  '        <div class="footer-contact">\n' +
-  '          <p><a href="mailto:information@tresane.com">information@tresane.com</a></p>\n' +
-  '          <p>Central Kentucky</p>\n' +
-  '        </div>\n' +
-  '      </div>\n' +
-  '      <div class="footer-bottom">\n' +
-  '        <p>&copy; 2026 Tresane, LLC. All rights reserved. Tresane<sup>&reg;</sup>, Tresane Model<sup>&reg;</sup>, and Bringing Workplaces Together<sup>&reg;</sup> are registered trademarks of Tresane, LLC.</p>\n' +
-  '      </div>\n    </div>\n  </footer>\n</body>\n</html>\n'
+// The shared footer, plus the script the mobile menu button needs. Both
+// come from site-chrome.mjs, so a post cannot drift from the rest of the site.
+const FOOT = '\n' + footer() + '\n' + chromeScript() + '\n</body>\n</html>\n'
 
 const posts = fs.readdirSync(SRC).filter(f => f.endsWith('.md')).map(parse)
   .sort((a, b) => b.date.localeCompare(a.date))   // newest first, always

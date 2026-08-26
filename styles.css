@@ -609,6 +609,14 @@ h3 { font-size: 1.2rem; color: var(--body); }
 .footer-links a:hover, .footer-contact a:hover { color: var(--gold); }
 .footer-contact p { font-size: 0.9rem; margin-bottom: 8px; }
 
+/* The service area, under the city. Smaller and quieter than the city line,
+   because the city is the one Google matches against the Business Profile and
+   the region is context. Contrast still has to clear 4.5 on the dark footer,
+   so this is a size change and NOT a fade: opacity is invisible to the
+   contrast checker, which composites background alpha but not element opacity.
+   A shade that only passes because nobody measured it does not pass. */
+.footer-region { font-size: 0.82rem; max-width: 22ch; }
+
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.1);
   padding-top: 24px;

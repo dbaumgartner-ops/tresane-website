@@ -20,13 +20,16 @@
       <a href="/" class="nav-logo">
         <img src="/assets/logo-simple.png" alt="Tresane" width="220" height="133" />
       </a>
-      <ul class="nav-links">
+      <ul class="nav-links" id="nav-links">
         <li><a href="/#how-we-work">How We Work</a></li>
         <li><a href="/#weq">WeQ</a></li>
+        <li><a href="/what-we-do">What We Do</a></li>
         <li><a href="/blog">Blog</a></li>
+        <li><a href="/#book">Our Book</a></li>
         <li><a href="/#about">About</a></li>
         <li><a href="/#contact" class="nav-cta">Get Started</a></li>
       </ul>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
     </div>
   </nav>
   <main>
@@ -60,14 +63,34 @@
   </main>
   <footer class="footer">
     <div class="container">
-      <div class="chat-footer-grid">
+      <div class="footer-grid">
         <div class="footer-brand">
           <img src="/assets/logo-simple.png" alt="Tresane" width="220" height="133" />
           <p class="footer-tagline">Bringing Workplaces Together<sup>&reg;</sup></p>
         </div>
+        <div class="footer-links">
+          <h3>Work</h3>
+          <ul>
+            <li><a href="/#how-we-work">How We Work</a></li>
+            <li><a href="/#weq">WeQ</a></li>
+            <li><a href="/#cycle">Learning Cycle</a></li>
+            <li><a href="/#book">Our Book</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Tresane</h3>
+          <ul>
+            <li><a href="/what-we-do">What We Do</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/#stories">What People Say</a></li>
+            <li><a href="/#about">About</a></li>
+          </ul>
+        </div>
         <div class="footer-contact">
+          <h3>Connect</h3>
           <p><a href="mailto:information@tresane.com">information@tresane.com</a></p>
-          <p>Central Kentucky</p>
+          <p>Lexington, KY</p>
+          <p class="footer-region">Serving Central Kentucky and the Commonwealth</p>
         </div>
       </div>
       <div class="footer-bottom">
@@ -75,5 +98,21 @@
       </div>
     </div>
   </footer>
+  <script>
+    (function () {
+      var t = document.querySelector(".nav-toggle");
+      var l = document.getElementById("nav-links");
+      if (t && l) t.addEventListener("click", function () {
+        var open = l.classList.toggle("nav-open");
+        t.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+      document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+        a.addEventListener("click", function (e) {
+          var el = document.querySelector(this.getAttribute("href"));
+          if (el) { e.preventDefault(); el.scrollIntoView({ behavior: "smooth" }); }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
