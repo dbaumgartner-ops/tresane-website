@@ -10,8 +10,6 @@ written_for: 2026-03-09
 review:
   - location phrase repeated 8x in the prose
 ---
-Introduction
-
 Leadership pressure rarely begins with workload alone.
 
 Often it grows quietly inside the expectations leaders carry about themselves.

@@ -11,8 +11,6 @@ review:
   - location phrase repeated 5x in the prose
   - short (478 words)
 ---
-Opening Reflection
-
 There is an entrepreneurial business in Central Kentucky that offers a useful example of team development Lexington KY leaders will likely recognize in their own organizations. The owner spent years making nearly every operational decision personally. Over time, that changed, gradually, as trust grew that the business could run well without the owner involved in every choice.
 
 Naming the Pattern

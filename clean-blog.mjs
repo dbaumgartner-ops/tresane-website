@@ -66,10 +66,15 @@ for (const file of fs.readdirSync(SRC).filter(f => f.endsWith('.md'))) {
   // 1b. A lone meta description survives rule 1 because it is long enough to
   //     look like prose. What gives it away is that it is ONE sentence, and a
   //     real opening paragraph almost never is.
-  const sentences = t => t.split(/[.!?](s|$)/).filter(x => x && x.trim().length > 12).length
+  const sentences = t => t.split(/[.!?](?=s|$)/).filter(x => x && x.trim().length > 12).length
   if (body.length > 1 && sentences(body[0]) === 1 && body[0].length < 210 && sentences(body[1]) > 1) {
     body = body.slice(1)
   }
+
+  // 1d. "Opening Reflection" / "Introduction" at the very top is a label on the
+  //     opening paragraph, not a section of the post. David: start in the story.
+  //     Only the FIRST one goes; the mid-post headings are real structure.
+  if (body.length && /^(opening reflection|introduction)$/i.test(body[0])) body = body.slice(1)
 
   // 2. Junk can also appear mid-document, between sections.
   body = body.filter(t => !isJunk(t))

@@ -10,8 +10,6 @@ written_for: 2026-02-16
 review:
   - "Abysses" - likely a transcription error
 ---
-Opening Reflection
-
 Some weeks arrive already loud. Calendars compress. Messages stack. Decisions wait in the hallway. The work keeps moving, and life keeps moving with it. In those moments, clarity in leadership can feel less like a skill and more like a scarce resource.
 
 This is often where leadership coaching becomes less about performance and more about orientation. Not a hunt for the perfect response, and not a promise of relief, just a steady return to what guides the next decision. When everything feels urgent, the pressure rarely comes only from the workload. It comes from the invisible friction between what is happening and what was expected to happen, plus the quiet fear that falling behind will create consequences that are hard to name.

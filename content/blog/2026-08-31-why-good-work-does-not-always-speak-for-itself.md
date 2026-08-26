@@ -10,8 +10,6 @@ written_for: 2026-07-27
 review:
   - location phrase repeated 4x in the prose
 ---
-Opening Reflection
-
 A recurring pattern shows up often enough in team leadership Lexington KY conversations to be worth naming directly. A team does strong work, trusts that the work will hold up on its own, and quietly avoids the people outside the team whose perspective could actually help that work land the way it was intended to. The avoidance rarely gets named as avoidance. It usually sounds more like confidence in the work itself.
 
 Naming the Pattern

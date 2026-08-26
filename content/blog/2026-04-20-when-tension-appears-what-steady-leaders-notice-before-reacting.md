@@ -9,8 +9,6 @@ source: Wave 5 Cycle 2 Wk 2
 written_for: 2026-03-16
 review: []
 ---
-Introduction
-
 Tension inside organizations rarely begins with conflict itself.
 
 More often it begins through interpretation.

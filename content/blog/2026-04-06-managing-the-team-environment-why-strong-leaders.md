@@ -9,8 +9,6 @@ source: Wave 5 Cycle 1 Wk 3
 written_for: 2026-03-02
 review: []
 ---
-Opening Reflection
-
 Many teams appear busy, coordinated, and productive, yet something feels slightly off. Meetings move quickly. Tasks are assigned. Decisions are made. Still, tension lingers beneath the surface. People work hard, yet alignment feels fragile. Conversations repeat. Frustrations resurface in different forms.
 
 Leaders often sense this before they can name it. The team is executing, but clarity feels heavier than it should. What is missing is rarely commitment or capability. More often, it is shared orientation.

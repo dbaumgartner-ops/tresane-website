@@ -9,8 +9,6 @@ source: Wave 5 Cycle 1 Wk 2
 written_for: 2026-02-23
 review: []
 ---
-Opening Reflection
-
 Feedback rarely arrives in a clean moment. It often shows up layered into busy days, competing priorities, and relationships that already carry history. Sometimes it lands gently. Other times it arrives sideways, incomplete, or charged with emotion that feels disproportionate to the words being used.
 
 Leaders often carry an unspoken tension in these moments. Staying open matters. Remaining grounded matters just as much. Feedback can feel like a mirror and a spotlight at the same time, revealing something real while also distorting the view through urgency, tone, or context. When that happens, it becomes easy to confuse awareness with agreement, or openness with surrender.

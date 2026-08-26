@@ -9,8 +9,6 @@ source: Wave 6 Cycle 2 Wk 1
 written_for: 2026-07-13
 review: []
 ---
-Opening Reflection
-
 There is a particular kind of executive presence that gets noticed often in Lexington KY leadership circles. Composed. Accomplished. The kind of presence that makes a room settle, because whoever just walked in clearly has things figured out. What rarely gets discussed is what is happening underneath that presence, in the quieter moments between meetings, when the same leader is running a private check on everything that was just said.
 
 Naming the Pattern
