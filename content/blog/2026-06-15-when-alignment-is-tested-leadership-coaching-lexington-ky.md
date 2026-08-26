@@ -10,7 +10,7 @@ written_for: 2026-05-11
 review:
   - location keyword in the title
 ---
-In leadership coaching work in Lexington KY, one of the most consistent patterns that surfaces is the gap between how a situation was expected to unfold and how it actually did. Leaders who are doing everything right, communicating clearly, holding themselves accountable, and staying focused on outcomes, sometimes find themselves in environments that do not respond the way they should. What happens next tends to reveal something important about where that leader actually is in their development.
+One of the most consistent patterns that surfaces is the gap between how a situation was expected to unfold and how it actually did. Leaders who are doing everything right, communicating clearly, holding themselves accountable, and staying focused on outcomes, sometimes find themselves in environments that do not respond the way they should. What happens next tends to reveal something important about where that leader actually is in their development.
 
 This is a story about one of those moments.
 
@@ -46,12 +46,10 @@ Not because the situation was acceptable. Not because the frustration was unfoun
 
 The project continued forward successfully. The leader who had been blindsided and frustrated and let down by a system that did not hold its own standards kept going. And in doing so, she demonstrated something that no ideal set of conditions could have produced in quite the same way.
 
-Leadership development in Lexington KY often looks like this. Not a clean resolution. Not a moment where everything aligns the way it should. But a leader who finds her footing in the middle of what did not go as planned and keeps moving toward what still matters.
+Leadership development often looks like this. Not a clean resolution. Not a moment where everything aligns the way it should. But a leader who finds her footing in the middle of what did not go as planned and keeps moving toward what still matters.
 
 What This Moment Tends to Reveal
 
 In supporting leaders through situations like this one, certain things become visible over time. The leaders who navigate imperfect environments with the most steadiness are rarely the ones who avoided the difficulty. They are the ones who stayed present inside it long enough to learn something from it.
 
 Alignment does not wait for ideal conditions. It is practiced in the middle of what does not go as planned. And that practice, repeated across enough difficult moments, becomes the foundation of a leadership presence that others come to recognize and rely on.
-
-This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.

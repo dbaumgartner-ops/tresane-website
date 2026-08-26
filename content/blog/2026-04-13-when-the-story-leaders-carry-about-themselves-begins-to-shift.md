@@ -16,11 +16,11 @@ Often it grows quietly inside the expectations leaders carry about themselves.
 
 Those expectations shape how situations are interpreted, how disagreement is experienced, and what possibilities feel available in complex environments.
 
-In leadership coaching conversations across Lexington and throughout Central Kentucky, one pattern appears repeatedly. The internal story leaders carry about who they are often influences their leadership presence long before any external challenge appears.
+In leadership coaching conversations across Lexington, one pattern appears repeatedly. The internal story leaders carry about who they are often influences their leadership presence long before any external challenge appears.
 
 The Moment When Perspective Quietly Shifts
 
-In a recent leadership coaching conversation, a professional living in Kentucky described challenges that had been emerging while working with senior leaders in another city.
+In a recent leadership coaching conversation, a professional living described challenges that had been emerging while working with senior leaders in another city.
 
 The individual worked remotely for an organization headquartered in Chicago. Their technical expertise was widely respected. Their role required navigating complex systems and high stakes decisions across teams.
 
@@ -62,7 +62,7 @@ Those elements matter.
 
 Yet leadership presence rarely lives only there.
 
-Across leadership coaching work throughout Lexington KY and the surrounding region, another pattern consistently appears.
+Across leadership coaching work and the surrounding region, another pattern consistently appears.
 
 Leadership presence tends to emerge in how individuals interpret complex environments.
 
@@ -154,7 +154,7 @@ Yet the leader entered those conversations with greater clarity.
 
 And often, that is where leadership resilience quietly begins.
 
-Leadership Coaching in Lexington KY
+Leadership Coaching
 
 Leadership coaching often focuses on developing skills and frameworks.
 
@@ -162,7 +162,7 @@ Yet many meaningful shifts occur earlier.
 
 They begin when leaders revisit the internal expectations guiding how they see themselves and their work.
 
-Across Lexington KY and throughout Central Kentucky, leadership coaching conversations increasingly explore this quieter dimension of leadership.
+Leadership coaching conversations increasingly explore this quieter dimension of leadership.
 
 The internal narrative leaders carry.
 

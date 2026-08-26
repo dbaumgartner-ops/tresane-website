@@ -11,7 +11,7 @@ review:
   - location keyword in the title
   - location phrase repeated 6x in the prose
 ---
-In team development work in Lexington KY, one of the most recognizable patterns is the moment when a business outgrows the people who built it, not because those people are no longer capable, but because the work has expanded beyond what a small group of deeply familiar individuals can carry alone. That moment does not arrive loudly. It tends to surface through friction, through missed steps, through the quiet exhaustion of a system that was built for a different size of operation trying to hold a larger one together.
+One of the most recognizable patterns is the moment when a business outgrows the people who built it, not because those people are no longer capable, but because the work has expanded beyond what a small group of deeply familiar individuals can carry alone. That moment does not arrive loudly. It tends to surface through friction, through missed steps, through the quiet exhaustion of a system that was built for a different size of operation trying to hold a larger one together.
 
 This is a story about a business that reached that moment and what began to shift when the team found a new way to see itself.
 
@@ -54,5 +54,3 @@ This business is still standing. Still growing. Still carrying the identity its 
 And the owner who had always known how to deliver exceptional service began to understand that designing the environment for her team was just as much a part of that service as anything she delivered directly.
 
 That is what team learning looks like when it takes hold in a real business. Not a finished product. A team that keeps its eyes open, keeps the conversation going, and keeps building on what the work continues to reveal.
-
-This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.

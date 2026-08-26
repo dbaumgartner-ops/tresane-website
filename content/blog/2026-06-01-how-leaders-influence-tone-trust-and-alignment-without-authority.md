@@ -11,16 +11,6 @@ review:
   - location phrase repeated 5x in the prose
   - opens with a line that reads as a meta description, not a paragraph
 ---
-Executive coaching Central Kentucky insights on influence, tone, and trust through everyday leadership patterns.
-
-Secondary and Long Tail Keywords:
-
-influence without authorityleadership presencerelationship based leadership
-
-executive coaching Central Kentucky
-
-influence-tone-trust-executive-coaching-central-kentucky
-
 The Pattern Beneath the Interaction
 
 A leader who had been a high level college athlete carried a familiar rhythm into the workplace. First in. Last out. Effort was visible. Pace was consistent. That standard had shaped how contribution was understood.
@@ -57,7 +47,7 @@ This is where trust begins to take shape.
 
 Not through formal alignment, but through the repeated experience of how differences are engaged.
 
-Tone, Trust, and Executive Coaching in Central Kentucky
+Tone, Trust, and Executive Coaching
 
 Across teams and organizations, a consistent pattern continues to surface.
 
@@ -67,7 +57,7 @@ Trust is rarely assigned. It develops.
 
 Alignment is rarely immediate. It forms over time.
 
-In executive coaching across Central Kentucky, these patterns often become more visible when leaders begin to observe how their presence is being experienced, not just how it is intended.
+In executive coaching, these patterns often become more visible when leaders begin to observe how their presence is being experienced, not just how it is intended.
 
 The difference is subtle, yet meaningful.
 

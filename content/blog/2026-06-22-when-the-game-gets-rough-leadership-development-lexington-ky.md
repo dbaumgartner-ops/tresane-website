@@ -11,7 +11,7 @@ review:
   - location keyword in the title
   - location phrase repeated 5x in the prose
 ---
-In leadership development work in Lexington KY, one of the patterns that surfaces most consistently is the moment when a leader has already done everything right and the situation still does not respond the way it should. The internal work is done. The conversation has happened. The right people have been brought in. And the dynamic continues anyway. What a leader does in that moment, how they stay oriented toward the outcome without losing themselves in the frustration of the process, tends to reveal something that smoother circumstances rarely can.
+One of the patterns that surfaces most consistently is the moment when a leader has already done everything right and the situation still does not respond the way it should. The internal work is done. The conversation has happened. The right people have been brought in. And the dynamic continues anyway. What a leader does in that moment, how they stay oriented toward the outcome without losing themselves in the frustration of the process, tends to reveal something that smoother circumstances rarely can.
 
 This is the second part of a story that began with a leader learning to name what was actually frustrating her. That internal clarity was the foundation. What came next was the harder work of staying in a relationship that was not going to become what she needed it to be.
 
@@ -35,7 +35,7 @@ This leader found that distinction. Not immediately. Not without frustration. Bu
 
 What Steady Leaders Tend to Notice
 
-In supporting leaders through relational friction in Central Kentucky and beyond, certain patterns appear in the ones who navigate it with the most steadiness.
+In supporting leaders through relational friction and beyond, certain patterns appear in the ones who navigate it with the most steadiness.
 
 They stay visible in the work without making the dynamic the center of it. Withdrawing from a difficult relationship can feel like a reasonable response. Over time it tends to create more problems than it solves. Continued presence, steady and grounded, often changes the experience of a dynamic even when the other person does not change.
 
@@ -49,6 +49,4 @@ The project finished successfully. The leader who had been playing rough defense
 
 That is what leadership development tends to look like in the middle of a real situation. Not a transformation of the relationship. Not a resolution that satisfied everything the moment required. But a leader who stayed anchored to what mattered when the game got physical and the whistle went the wrong way.
 
-Leadership development in Lexington KY grows in moments like these. Not because the circumstances were ideal. Because the leader chose to remain in them with intention.
-
-This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.
+Leadership development grows in moments like these. Not because the circumstances were ideal. Because the leader chose to remain in them with intention.

@@ -11,16 +11,6 @@ review:
   - location phrase repeated 5x in the prose
   - opens with a line that reads as a meta description, not a paragraph
 ---
-Leadership coaching Kentucky insights on values under pressure and how consistency shapes trust over time.
-
-Secondary and Long Tail Keywords:
-
-values based leadershipleadership clarity under pressureexecutive decision making
-
-leadership coaching Kentucky
-
-values-under-pressure-leadership-coaching-kentucky
-
 The Pattern Beneath the Moment
 
 A leader reflected on time spent as a high level college athlete, where expectations were clear, intensity was shared, and performance defined the environment. That experience shaped how effort was interpreted and how standards were reinforced.
@@ -87,13 +77,13 @@ Over time, the same expectations began to land differently.
 
 Not because they changed, but because the pattern surrounding them did.
 
-Leadership Coaching Kentucky, What Becomes Visible Over Time
+Leadership Coaching, What Becomes Visible Over Time
 
 Across leaders and teams, a similar pattern continues to surface.
 
 Clarity does not always emerge through new strategies. It often becomes visible through repeated observation of what is already happening.
 
-Leadership coaching in Kentucky and beyond often centers on this idea. Not adding more, but noticing more.
+Leadership coaching and beyond often centers on this idea. Not adding more, but noticing more.
 
 How patterns form.How expectations are carried forward.How consistency shapes what others experience over time.
 

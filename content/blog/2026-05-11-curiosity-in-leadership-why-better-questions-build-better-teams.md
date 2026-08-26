@@ -34,7 +34,7 @@ This is a core part of leadership communication skills in large systems.
 
 Influence often grows less through direction and more through credibility, consistency, and the ability to stay engaged long enough for trust to take shape.
 
-In many leadership development conversations across Central Kentucky, this pattern appears repeatedly.
+In many leadership development conversations, this pattern appears repeatedly.
 
 Leaders moving from operational control into enterprise influence often experience a period of frustration.
 
@@ -56,7 +56,7 @@ That recognition did not appear suddenly.
 
 It had been unfolding.
 
-This is often what leadership training in Central Kentucky continues to reinforce: influence in complex environments rarely reveals itself immediately.
+This is often what leadership training continues to reinforce: influence in complex environments rarely reveals itself immediately.
 
 It is often built through repeated orientation.
 

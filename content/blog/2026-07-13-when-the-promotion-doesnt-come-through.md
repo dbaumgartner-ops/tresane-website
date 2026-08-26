@@ -12,7 +12,7 @@ review:
 ---
 There is a particular kind of week that leaders in Central Kentucky know without needing it described. The week when something you were quietly hoping for does not come through. When the call with the hiring manager goes the way those calls sometimes go, promising enough to stay in, ambiguous enough to leave room for doubt, and then the follow-up arrives and removes the ambiguity. The door closes. The work continues. And somewhere inside the continuation, a question is sitting that the calendar does not have space for.
 
-Leadership development in Lexington KY tends to surface this kind of moment more often than formal programs expect. Not because leaders here are navigating more disappointment than leaders elsewhere. Because the work that happens in real development conversations does not stay on the agenda. It goes where the leader actually is. And where a leader actually is, in the week a promotion does not come through, is rarely where the 360 debrief was scheduled to begin.
+Leadership development tends to surface this kind of moment more often than formal programs expect. Not because leaders here are navigating more disappointment than leaders elsewhere. Because the work that happens in real development conversations does not stay on the agenda. It goes where the leader actually is. And where a leader actually is, in the week a promotion does not come through, is rarely where the 360 debrief was scheduled to begin.
 
 Naming the Pattern
 
@@ -24,7 +24,7 @@ The variation in how leaders receive feedback is real and worth paying attention
 
 Expanded Perspective
 
-He was a quality professional at a large multinational with operations in Central Kentucky. Spent his career being selected and moved, identified as the person who could stabilize a situation, improve it, deliver results. A few weeks before the conversation he had applied for a corporate position. By the time we spoke the second time he already knew. He did not get it.
+He was a quality professional at a large multinational with operations. Spent his career being selected and moved, identified as the person who could stabilize a situation, improve it, deliver results. A few weeks before the conversation he had applied for a corporate position. By the time we spoke the second time he already knew. He did not get it.
 
 His wife had been navigating cancer for the better part of a decade. That reality had done something to him over time. He and his wife had arrived somewhere together, a recognition that they had spent years trying to live life rather than actually living it. The difference between those two things had become important in a way that was hard to articulate but unmistakable in how he talked about almost everything.
 
@@ -48,10 +48,8 @@ That quality, the willingness to remain in the room with the full picture, is le
 
 Closing Reflection
 
-Leadership development in Lexington KY that is worth the investment tends to go where the leader actually is. Not where the agenda scheduled them to be. The most durable development rarely happens inside the plan. It happens in the moment when a question arrives that is bigger than the feedback form was designed to hold, and the leader is present enough, and the space is safe enough, for that question to be asked out loud.
+Leadership development that is worth the investment tends to go where the leader actually is. Not where the agenda scheduled them to be. The most durable development rarely happens inside the plan. It happens in the moment when a question arrives that is bigger than the feedback form was designed to hold, and the leader is present enough, and the space is safe enough, for that question to be asked out loud.
 
 He left with two things in his development plan. One of them was a sentence he had never said about himself before. That he is a developer of leaders. That the widgets were never the work.
 
 The now what is still a live question for him. But it is a different question than it was before he could name what he has actually been doing all along.
-
-This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.

@@ -8,11 +8,10 @@ words: 544
 source: Wave 5 Cycle 3 Wk 1
 written_for: 2026-03-30
 review:
+  - a paragraph begins lowercase ("a clash between personal standards..."), a fragment that is in the source document too
   - location phrase repeated 4x in the prose
   - opens with a line that reads as a meta description, not a paragraph
 ---
-Executive coaching insights from Lexington on how leadership identity and emotional patterns shape team expectations.
-
 A recent executive coaching conversation in Lexington brought forward a leadership pattern that shows up more often than many leaders realize.
 
 What first appeared to be a performance concern gradually revealed something deeper about leadership identity, emotional management, and the standards leaders carry into their roles.
@@ -77,7 +76,7 @@ It allows clarity to emerge.
 
 And it helps teams move forward with more explicit expectations rather than emotionally loaded assumptions.
 
-For leaders seeking executive coaching in Kentucky, this pattern is one that frequently appears across industries.
+This pattern is one that frequently appears across industries.
 
 The moment itself is rarely the whole story.
 

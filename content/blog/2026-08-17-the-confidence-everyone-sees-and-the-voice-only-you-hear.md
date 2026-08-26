@@ -21,16 +21,14 @@ Expanded Perspective
 
 The more useful distinction is not between confidence and self doubt. It is between discernment and rumination. Discernment is a question that gets asked, gets what information is available, and resolves. It sharpens a decision. Rumination asks the identical question again, and again, without any new information arriving to answer it differently. It does not sharpen anything. It just repeats.
 
-The same pattern shows up around planning. Planning prepares for what is genuinely likely to happen. Worry rehearses what is unlikely, and keeps rehearsing it well past the point where the rehearsal produces anything useful. Both discernment and planning are strengths. Executive presence Lexington KY audiences respect is often built directly on both. What erodes that presence quietly, from the inside, is not the discernment or the planning itself. It is the excess version of each, running unexamined in the background.
+The same pattern shows up around planning. Planning prepares for what is genuinely likely to happen. Worry rehearses what is unlikely, and keeps rehearsing it well past the point where the rehearsal produces anything useful. Both discernment and planning are strengths. Executive presence audiences respect is often built directly on both. What erodes that presence quietly, from the inside, is not the discernment or the planning itself. It is the excess version of each, running unexamined in the background.
 
 What Steady Leaders Tend to Notice
 
-Leaders who carry this well are rarely the ones who have eliminated the internal check altogether. That version of leadership is uncommon and, honestly, probably not something to aim for. What tends to distinguish steady leaders is the ability to notice, often in real time, when discernment has quietly tipped into rumination, or when planning has become worry wearing a more productive sounding name.
+Leaders who carry this well are rarely the ones who have eliminated the internal check altogether. That version of leadership is uncommon, honestly, probably not something to aim for. What tends to distinguish steady leaders is the ability to notice, often in real time, when discernment has quietly tipped into rumination, or when planning has become worry wearing a more productive sounding name.
 
 That noticing rarely happens alone. It tends to happen out loud, in conversation with someone trusted enough to hear the unfiltered version, someone who will not mistake the self check for weakness or rush to fix it prematurely. Being trusted with that role, hearing what sits underneath someone's composure, is not a small thing. It is one of the more honored positions available in a working relationship, and it asks for almost nothing beyond steady, informed presence.
 
 Closing Reflection
 
-Executive presence Lexington KY leaders bring into a room is rarely the absence of an internal voice. More often it is the ongoing practice of staying in relationship with that voice, rather than either silencing it or being run by it entirely. The leaders who navigate this well are not the ones without a narrator. They are the ones who have learned to notice when the narrator is offering something useful, and when it has simply started repeating itself.
-
-This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.
+Executive presence leaders bring into a room is rarely the absence of an internal voice. More often it is the ongoing practice of staying in relationship with that voice, rather than either silencing it or being run by it entirely. The leaders who navigate this well are not the ones without a narrator. They are the ones who have learned to notice when the narrator is offering something useful, and when it has simply started repeating itself.

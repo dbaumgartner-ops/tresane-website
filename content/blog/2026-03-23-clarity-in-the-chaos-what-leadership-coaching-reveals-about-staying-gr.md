@@ -34,7 +34,7 @@ Values awareness brings a different kind of clarity. It does not slow work for t
 
 Over time, executive leadership clarity tends to deepen when values are treated as living guideposts rather than inherited scripts. Some values arrive from upbringing. Some come from mentors. Some were once necessary in earlier roles. In chaos, older values can resurface as rules that no longer fit the current scope. A leader who once gained praise for being the rescuer may still default to rescuing. A leader who once succeeded by being the fastest problem solver may still equate speed with worth. Those patterns can be admirable, and they can also create drift when the environment requires a different expression of leadership.
 
-When values are revisited, leaders often discover that clarity is less about choosing the perfect action and more about choosing a consistent orientation. Alignment is practiced, not achieved. Learning continues across seasons, roles, and relationships. Complexity is normal, not a problem to eliminate. Abysses are not detours from leadership, they are part of it.
+When values are revisited, leaders often discover that clarity is less about choosing the perfect action and more about choosing a consistent orientation. Alignment is practiced, not achieved. Learning continues across seasons, roles, and relationships. Complexity is normal, not a problem to eliminate. Challenges are not detours from leadership, they are part of it.
 
 What steady leaders tend to notice
 
@@ -52,4 +52,4 @@ Clarity in the chaos is not a finish line. It is a repeated return. Work moves. 
 
 Values awareness does not remove complexity. It offers orientation within it. It gives language to what is already guiding choices, and it makes room for those guideposts to be tested and refined as environments change. Over time, this creates steadiness that others can feel, not because every decision is perfect, but because decisions reflect something consistent beneath the moment.
 
-The week ends, and another begins. The learning continues. The practice continues. Clarity remains available, not as certainty, but as a grounded way of moving forward when everything feels urgent, including within leadership coaching in Kentucky.
+The week ends, and another begins. The learning continues. The practice continues. Clarity remains available, not as certainty, but as a grounded way of moving forward when everything feels urgent.

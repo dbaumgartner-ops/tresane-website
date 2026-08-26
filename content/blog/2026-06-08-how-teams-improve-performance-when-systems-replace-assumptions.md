@@ -11,16 +11,6 @@ review:
   - location phrase repeated 5x in the prose
   - opens with a line that reads as a meta description, not a paragraph
 ---
-Executive coaching Central Kentucky insights on team systems, accountability, and reducing repeated breakdowns.
-
-Secondary and Long Tail Keywords:
-
-team systems and processesaccountability in teamsprocess improvement leadershipworkflow clarity
-
-executive coaching Central Kentucky
-
-team-systems-process-improvement-executive-coaching-central-kentucky
-
 The Pattern Beneath the Work
 
 A leader who had built his mindset through high level athletics carried a clear standard into the workplace. Effort was visible. Execution followed a rhythm. The way the work was done mattered just as much as the result.
@@ -57,9 +47,9 @@ What once felt like isolated mistakes begins to feel familiar. The same type of 
 
 This is where process improvement leadership begins to shift from individual correction to broader awareness.
 
-Accountability and Systems in Executive Coaching Central Kentucky
+Accountability and Systems in Executive Coaching
 
-Across organizations in Central Kentucky and beyond, a consistent theme continues to emerge.
+Across organizations and beyond, a consistent theme continues to emerge.
 
 Accountability is often associated with individuals. Systems are often assumed.
 

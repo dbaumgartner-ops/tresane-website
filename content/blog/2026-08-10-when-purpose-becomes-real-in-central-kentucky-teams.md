@@ -13,7 +13,7 @@ review:
 ---
 There is a particular feeling that teams describe when purpose clarity finally arrives. It does not tend to feel like a breakthrough. It tends to feel like something settling. Like the words that were written at the beginning of the work have finally become true enough to be felt rather than just stated.
 
-That feeling is worth paying attention to in team development work across Lexington KY and Central Kentucky because it tends to arrive later than expected and through a different door than most teams anticipate.
+That feeling is worth paying attention to in team development work across Lexington KY and because it tends to arrive later than expected and through a different door than most teams anticipate.
 
 Purpose clarity is rarely a prerequisite. More often it is a destination that the work itself produces.
 
@@ -27,7 +27,7 @@ Purpose statements written before the work begins are always best guesses. The c
 
 Expanded Perspective
 
-A Central Kentucky entrepreneur has been building something worth watching over the last several months. An organization that grew through the energy and vision that tends to drive entrepreneurial success, and that is now doing the harder and more deliberate work of building the structure to sustain that growth. Roles getting defined. Teams forming around distinct responsibilities. Smaller collectives identifying their big rocks, the areas of genuine collective focus that belong to them specifically and not to anyone else in the organization.
+A entrepreneur has been building something worth watching over the last several months. An organization that grew through the energy and vision that tends to drive entrepreneurial success, and that is now doing the harder and more deliberate work of building the structure to sustain that growth. Roles getting defined. Teams forming around distinct responsibilities. Smaller collectives identifying their big rocks, the areas of genuine collective focus that belong to them specifically and not to anyone else in the organization.
 
 Two teams emerged with real clarity of purpose. One focused on sustainability. One focused on growth. And as those teams began working inside their distinct responsibilities, something that had felt loose at the beginning started to feel solid.
 
@@ -35,7 +35,7 @@ In a recent working meeting, someone named it out loud. At first things felt und
 
 That comment landed in the room the way purpose clarity tends to land when it is real. Not as a declaration. As a recognition of something that had been developing for longer than anyone had quite noticed.
 
-Across team development work in Central Kentucky, this pattern appears consistently. The purpose statement opens the conversation. The work makes it true. And the moment when the team feels the shift tends to arrive quietly, in the middle of something else, when nobody was specifically looking for it.
+Across team development work, this pattern appears consistently. The purpose statement opens the conversation. The work makes it true. And the moment when the team feels the shift tends to arrive quietly, in the middle of something else, when nobody was specifically looking for it.
 
 What Steady Leaders Tend to Notice
 
@@ -49,8 +49,6 @@ Closing Reflection
 
 Purpose clarity in teams does not arrive before the work. It develops through it. The statement that gets written at the beginning is a starting point, a best guess that becomes more true as the team discovers through its actual work what it is genuinely for.
 
-Team development work in Lexington KY keeps returning to this territory because it sits beneath almost everything else a team is trying to do together. The ability to make decisions with shared accountability. The capacity to navigate tension without losing the thread of what the team exists to produce. The steadiness that holds when conditions shift and the team has to reach for something solid.
+Team development work keeps returning to this territory because it sits beneath almost everything else a team is trying to do together. The ability to make decisions with shared accountability. The capacity to navigate tension without losing the thread of what the team exists to produce. The steadiness that holds when conditions shift and the team has to reach for something solid.
 
 That something solid is purpose. And it tends to arrive not through a better planning process but through the accumulated experience of a team that stayed with the conversation long enough for the words to become real.
-
-This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.

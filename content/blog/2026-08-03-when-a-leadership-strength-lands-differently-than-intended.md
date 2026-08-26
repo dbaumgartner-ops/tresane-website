@@ -46,5 +46,3 @@ Values that have always worked are worth examining. Not because they are wrong, 
 Leadership development work in Atlanta keeps returning to this territory because it sits beneath almost everything else. The ability to connect with people who experience leadership differently. The capacity to stay curious when the story coming back does not match the intention behind it. The willingness to ask what kind of culture is being built and whether that is the culture worth leaving behind.
 
 The value does not have to change. What changes is the awareness of how it travels.
-
-This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.

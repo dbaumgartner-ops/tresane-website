@@ -68,7 +68,7 @@ We will support one another this way.
 
 What became visible very quickly was that this was not a one-time conversation.
 
-In many Central Kentucky businesses, especially founder-led entrepreneurial environments, team expectations require continued refinement as growth creates new pressures.
+In many businesses, especially founder-led entrepreneurial environments, team expectations require continued refinement as growth creates new pressures.
 
 Week by week, smaller moments began to surface.
 
@@ -98,7 +98,7 @@ Structure does not replace culture.
 
 It protects it.
 
-For leadership teams in Kentucky, especially in growing entrepreneurial organizations, the work is often less about creating something entirely new and more about preserving what made the organization strong in the first place.
+For leadership teams, especially in growing entrepreneurial organizations, the work is often less about creating something entirely new and more about preserving what made the organization strong in the first place.
 
 The challenge becomes translating values into repeated team expectations.
 

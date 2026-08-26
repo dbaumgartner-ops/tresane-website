@@ -12,7 +12,7 @@ review:
 ---
 There is a particular kind of clarity that does not arrive all at once. It develops gradually, through a series of moments that each seem small on their own, until something that was always operating beneath the surface finally becomes visible enough to name.
 
-That is how it tends to work in leadership coaching in Lexington KY and across Central Kentucky. The presenting question is rarely about values. It is usually about a pattern. A recurring friction. A reaction that keeps arriving with more intensity than the situation seems to call for. A sense that something is running in the background without having been given permission to do so.
+That is how it tends to work in leadership coaching in Lexington KY. The presenting question is rarely about values. It is usually about a pattern. A recurring friction. A reaction that keeps arriving with more intensity than the situation seems to call for. A sense that something is running in the background without having been given permission to do so.
 
 The values conversation often starts there.
 
@@ -30,7 +30,7 @@ What changes when values become visible is not the values themselves. A leader w
 
 That distinction matters more at senior levels than anywhere else. In complex organizations, surrounded by peers who are also strong and also values driven, the environment rarely moves at the pace a single leader's values would prefer. The work is not about changing what drives the leadership. It is about developing enough awareness to work with it honestly in conditions that do not always cooperate.
 
-Across leadership development work in Central Kentucky, this pattern appears consistently. The leaders who develop the most durable kind of steadiness are rarely the ones who have resolved their values tensions. They are the ones who have named them clearly enough to work with them rather than be surprised by them.
+Across leadership development work, this pattern appears consistently. The leaders who develop the most durable kind of steadiness are rarely the ones who have resolved their values tensions. They are the ones who have named them clearly enough to work with them rather than be surprised by them.
 
 What Steady Leaders Tend to Notice
 
@@ -44,8 +44,6 @@ Closing Reflection
 
 Values awareness does not produce a finished leader. It produces a more honest one. Someone whose responses carry a recognizable thread, not because they have become more polished or more controlled, but because what guides them has become intentional rather than accidental.
 
-The work of leadership coaching in Lexington KY keeps returning to this foundation because everything else in the model builds from it. The ability to connect with people who see things differently. The capacity to manage a team environment rather than just react to it. The steadiness that holds when the conditions do not cooperate. All of it traces back to a leader who knows what is actually driving the car.
+The work of leadership coaching keeps returning to this foundation because everything else in the model builds from it. The ability to connect with people who see things differently. The capacity to manage a team environment rather than just react to it. The steadiness that holds when the conditions do not cooperate. All of it traces back to a leader who knows what is actually driving the car.
 
 That examination is never fully finished. Which is, in a quiet way, the point.
-
-This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.

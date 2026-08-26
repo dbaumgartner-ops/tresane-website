@@ -109,7 +109,7 @@ But it changed how the tension was experienced.
 
 Leadership Training and Organizational Perspective
 
-Leadership training within Kentucky organizations increasingly focuses on these quieter dimensions of leadership.
+Leadership training organizations increasingly focuses on these quieter dimensions of leadership.
 
 Skills and frameworks matter.
 

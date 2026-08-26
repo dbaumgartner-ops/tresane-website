@@ -12,7 +12,7 @@ review:
 ---
 Central Kentucky has always produced a particular kind of leader. Technical, precise, results-oriented. Someone who came up through the work itself, engineering, operations, quality, logistics, and got noticed because they were exceptionally good at it. These are the leaders who get selected, developed, and asked to take on more. They move up because they deliver. And at a certain point, without much announcement, the thing that moved them up becomes the thing standing between them and the next level of impact.
 
-Team development in Lexington KY and across Central Kentucky tends to surface this pattern quickly. Not because the leaders here are struggling more than leaders elsewhere. Because the industries that anchor this region, manufacturing, healthcare systems, supply chain, technical operations, produce a high concentration of leaders whose entire professional identity is built around their own capability. That identity is real and it earned everything it built. It also has a ceiling. And the ceiling tends to become visible right around the time the role stops rewarding the doing and starts requiring something else entirely.
+Team development and tends to surface this pattern quickly. Not because the leaders here are struggling more than leaders elsewhere. Because the industries that anchor this region, manufacturing, healthcare systems, supply chain, technical operations, produce a high concentration of leaders whose entire professional identity is built around their own capability. That identity is real and it earned everything it built. It also has a ceiling. And the ceiling tends to become visible right around the time the role stops rewarding the doing and starts requiring something else entirely.
 
 Naming the Pattern
 
@@ -44,14 +44,12 @@ What tends to become visible over time is that the coaching hat and the mentorin
 
 That accumulation is slow and it is not always visible in the weekly results. Over time it becomes the most consequential thing a leader at this level does. Not the problems solved. The environment built. Not the outputs delivered. The capability developed in the people who delivered them.
 
-Team development in Lexington KY that is worth the investment tends to focus here. Not on the skills of the individual leader in isolation. On the environment the leader is responsible for shaping and whether that environment is building thinkers or building dependence.
+Team development that is worth the investment tends to focus here. Not on the skills of the individual leader in isolation. On the environment the leader is responsible for shaping and whether that environment is building thinkers or building dependence.
 
 Closing Reflection
 
 The leaders who build the most capable teams over time are rarely the ones who were best at the work. They are the ones who got best at building the conditions for others to do it. That transition does not require leaving the precision and capability behind. It requires redirecting them. From the output to the environment. From the answer to the question. From carrying the work to building the team that carries it together.
 
-For technical leaders navigating that shift in Central Kentucky right now, the ceiling is not a permanent structure. It is a habit. And habits, named clearly and examined honestly, have a way of losing their hold.
+For technical leaders navigating that shift right now, the ceiling is not a permanent structure. It is a habit. And habits, named clearly and examined honestly, have a way of losing their hold.
 
-That is where team development in Lexington KY does its most durable work. Not in the training room. In the moment a leader stops solving and starts building.
-
-This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.
+That is where team development does its most durable work. Not in the training room. In the moment a leader stops solving and starts building.
