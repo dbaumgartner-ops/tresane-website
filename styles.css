@@ -985,13 +985,21 @@ picture { display: contents; }
    search and then have somewhere to go. It inherits the colour and image rules
    unchanged.
 ========================================================================== */
+/* Same band as the lets-chat pages: aqua with the gold rule. The off-white
+   version read as greyed out beside them, and one header treatment across
+   every non-home page is one fewer thing to keep in step. */
 .blog-head {
-  background: var(--off-white);
-  border-bottom: 1px solid var(--border);
+  background: var(--aqua-bg);
+  border-bottom: 3px solid var(--gold);
   padding: 56px 0 44px;
   text-align: center;
 }
 .blog-head h1 { color: var(--blue); margin-bottom: 12px; }
+/* --gray measures 4.34 on the aqua band, a hair under the 4.5 these sizes
+   need. Same tone one shade deeper, 4.64. Scoped to the band rather than
+   changing --gray everywhere, because on white it already passes. */
+.blog-head .section-label,
+.blog-head .section-intro { color: #676d7b; }
 .blog-head .section-intro { margin: 0 auto; max-width: 620px; }
 
 /* Domain filters. Buttons, not links: they change what is shown on THIS page
@@ -1137,12 +1145,13 @@ picture { display: contents; }
 /* The community section is the part no competitor can copy, so it is the one
    block that gets a background. One emphasis, not five. */
 .wwd-block--commit {
-  background: var(--aqua-bg);
-  border-top: 3px solid var(--gold);
-  border-bottom: none;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--gold);
   border-radius: 12px;
   padding: 36px 32px 40px;
   margin: 20px 0 72px;
+  box-shadow: 0 4px 20px rgba(10,106,162,0.07);
 }
 .wwd-block--commit h2 { margin-bottom: 16px; }
 .wwd-block--commit .btn-primary { margin-top: 10px; }
