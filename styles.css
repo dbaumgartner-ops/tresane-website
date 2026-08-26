@@ -1057,6 +1057,15 @@ picture { display: contents; }
 .card-meta { font-size: 0.78rem; color: var(--gray); margin: 0; }
 .blog-empty { text-align: center; color: var(--gray); padding: 40px 0 80px; }
 
+/* REQUIRED, not tidiness. An explicit `display` on an element BEATS the browser
+   default `[hidden] { display: none }`, because both are ordinary rules and the
+   author stylesheet wins on order. .card and .blog-empty both set display, so
+   the filter script setting `c.hidden = true` marked the cards hidden and
+   changed nothing on screen. Any element here that sets display and is toggled
+   with the hidden attribute needs a line below. */
+.card[hidden],
+.blog-empty[hidden] { display: none; }
+
 /* The domain chip. --gold is a BACKGROUND here, never letters, so the text on
    it uses --ink-on-gold. See the token table in the standards. */
 .chip {
