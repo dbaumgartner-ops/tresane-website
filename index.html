@@ -6,7 +6,15 @@
   <title>Tresane · Bringing Workplaces Together®</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <!-- Loaded non-blocking: media="print" keeps it off the critical path, and
+       onload flips it to all so it still applies. display=swap was ALREADY on
+       the URL, so the fonts always swapped in late -- this only stops the
+       request holding up first paint. The Lighthouse filmstrip showed three
+       blank frames waiting on it. noscript copy keeps it working without JS. -->
+  <link rel="stylesheet" media="print" onload="this.media='all';this.onload=null"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" />
+  <noscript><link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" /></noscript>
   <link rel="icon" href="/favicon.ico?v=2" sizes="any" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/assets/logo-simple.png" />
   <meta name="theme-color" content="#0A6AA2" />
@@ -19,7 +27,7 @@
   <nav class="nav">
     <div class="nav-inner">
       <a href="/" class="nav-logo">
-        <img src="assets/logo-simple.png" alt="Tresane" height="44" />
+        <img src="assets/logo-simple.png" alt="Tresane" width="1158" height="701" />
       </a>
       <ul class="nav-links">
         <li><a href="#how-we-work">How We Work</a></li>
@@ -33,6 +41,8 @@
       <button class="nav-toggle" aria-label="Menu">&#9776;</button>
     </div>
   </nav>
+
+  <main id="main">
 
   <!-- ── HERO ────────────────────────────────────────────────────────── -->
   <section class="hero">
@@ -242,7 +252,7 @@
     <div class="container">
       <div class="book-grid">
         <div class="book-cover">
-          <img src="assets/book-cover.jpg" alt="Leading Without Closure by David Baumgartner" class="book-cover-img" />
+          <img src="assets/book-cover.jpg" alt="Leading Without Closure by David Baumgartner" class="book-cover-img" width="642" height="858" loading="lazy" decoding="async" />
         </div>
         <div class="book-text">
           <div class="section-label">The Thinking Behind Tresane</div>
@@ -269,7 +279,7 @@
           <p class="about-tagline">Bringing Workplaces Together<sup>®</sup>. One Leader, One Team at a Time</p>
         </div>
         <div class="about-david">
-          <img src="assets/david.jpg" alt="David Baumgartner, Founder of Tresane" class="david-photo" />
+          <img src="assets/david.jpg" alt="David Baumgartner, Founder of Tresane" class="david-photo" width="1762" height="1174" loading="lazy" decoding="async" />
           <div class="david-bio">
             <h3>David Baumgartner</h3>
             <p class="david-title">Founder, Tresane LLC</p>
@@ -295,6 +305,8 @@
   </section>
 
   <!-- ── FOOTER ───────────────────────────────────────────────────────── -->
+  </main>
+
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
@@ -303,7 +315,7 @@
           <p class="footer-tagline">Bringing Workplaces Together<sup>®</sup></p>
         </div>
         <div class="footer-links">
-          <h4>Work</h4>
+          <h3>Work</h3>
           <ul>
             <li><a href="#how-we-work">How We Work</a></li>
             <li><a href="#weq">WeQ</a></li>
@@ -311,7 +323,7 @@
           </ul>
         </div>
         <div class="footer-links">
-          <h4>Tresane</h4>
+          <h3>Tresane</h3>
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#stories">What People Say</a></li>
@@ -319,7 +331,7 @@
           </ul>
         </div>
         <div class="footer-contact">
-          <h4>Connect</h4>
+          <h3>Connect</h3>
           <p><a href="mailto:information@tresane.com">information@tresane.com</a></p>
           <p>(866) 982-5837</p>
           <p>Central Kentucky</p>

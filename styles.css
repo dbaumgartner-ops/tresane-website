@@ -451,6 +451,8 @@ h3 { font-size: 1.2rem; color: var(--body); }
 .book-cover-img {
   width: 100%;
   max-width: 280px;
+  height: auto;   /* companion to the width/height attrs -- without it the
+                     intrinsic height wins and the cover stretches */
   border-radius: 8px;
   box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
 }
@@ -493,6 +495,7 @@ h3 { font-size: 1.2rem; color: var(--body); }
 .david-photo {
   width: 100%;
   max-width: 320px;
+  height: auto;   /* see .book-cover-img */
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.15);
   object-fit: cover;
@@ -557,7 +560,7 @@ h3 { font-size: 1.2rem; color: var(--body); }
 .footer-brand img { margin-bottom: 12px; }
 .footer-tagline { font-size: 0.85rem; color: var(--gold); }
 
-.footer-links h4, .footer-contact h4 {
+.footer-links h3, .footer-contact h3 {
   font-family: var(--font-body);
   font-size: 0.75rem;
   font-weight: 700;
