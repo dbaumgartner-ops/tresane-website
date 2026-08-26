@@ -80,20 +80,16 @@
       <h2>The Tresane Model<sup>®</sup></h2>
       <p class="section-intro">There is no universal playbook. But there is a clearer way of seeing leadership. We work across three domains, because alignment in all three is where real change holds.</p>
 
-      <svg class="dia" viewBox="0 0 600 500" role="img"
-           aria-label="The Tresane Model: three interlocking domains, Align Self, Align Relationships and Align Teams, overlapping around the Tresane mark. They are interconnected rather than sequential.">
-        <circle class="dia-ring dia-ring--self" cx="300" cy="160" r="126" />
-        <circle class="dia-ring dia-ring--rel"  cx="210" cy="318" r="126" />
-        <circle class="dia-ring dia-ring--team" cx="390" cy="318" r="126" />
-
-        <g class="dia-name">
-          <text x="300" y="100">ALIGN SELF</text>
-          <text x="182" y="374">ALIGN</text>
-          <text x="182" y="396">RELATIONSHIPS</text>
-          <text x="418" y="374">ALIGN</text>
-          <text x="418" y="396">TEAMS</text>
-        </g>
-      </svg>
+      <!-- The Tresane Model, as the designed brand artwork rather than an
+           approximation of it in hand-written SVG. 1200px for a ~520px display
+           slot, so it stays sharp on retina; transparent PNG so it sits on the
+           section background rather than in a white box.
+           loading="lazy" + explicit width/height: the diagram is below the fold,
+           so it never blocks first paint, and the reserved box means the page
+           does not jump when it arrives. -->
+      <img class="dia" src="assets/tresane-model.png" width="1200" height="1200"
+           loading="lazy" decoding="async"
+           alt="The Tresane Model: three interlocking domains, Align Self, Align Relationships and Align Teams, circling the Tresane mark. They are interconnected rather than sequential.">
 
       <div class="dia-legend dia-legend-3">
         <p><b>Align Self.</b> Clarity of values, identity, and purpose. Leaders who know what grounds them can hold pressure without being consumed by it.</p>

@@ -749,13 +749,9 @@ h3 { font-size: 1.2rem; color: var(--body); }
   text-anchor: middle; letter-spacing: 0.03em;
 }
 
-/* The model: three interlocking domains. No numbers, deliberately. 01/02/03
-   reads as an order, and the model is not sequential: align self is the
-   foundation, which is not the same as the starting line. */
-.dia-ring { stroke-width: 3; }
-.dia-ring--self { fill: rgba(10,106,162,0.10); stroke: var(--blue); }
-.dia-ring--rel  { fill: rgba(223,163,44,0.16); stroke: var(--gold); }
-.dia-ring--team { fill: rgba(26,74,107,0.10); stroke: var(--navy); }
+/* .dia-ring rules retired: the model is now the designed artwork
+   (assets/tresane-model.png), not three CSS-styled circles. The other .dia-*
+   rules below and above stay -- the Learning Cycle diagram still uses them. */
 
 .dia-legend {
   display: grid;
