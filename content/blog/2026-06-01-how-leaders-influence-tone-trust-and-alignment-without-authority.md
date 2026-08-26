@@ -8,7 +8,8 @@ words: 696
 source: Wave 5 Cycle 4 Wk 2
 written_for: 2026-04-27
 review:
-  - location phrase repeated 5x in the prose  - opens with a line that reads as a meta description, not a paragraph
+  - location phrase repeated 5x in the prose
+  - opens with a line that reads as a meta description, not a paragraph
 ---
 Executive coaching Central Kentucky insights on influence, tone, and trust through everyday leadership patterns.
 
