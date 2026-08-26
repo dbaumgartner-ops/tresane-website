@@ -1108,3 +1108,45 @@ picture { display: contents; }
   .cards { grid-template-columns: 1fr; }
   .post { padding: 28px 20px 56px; }
 }
+
+
+/* == WHAT WE DO ============================================================
+   A marketing page, so it keeps the nav and is indexed. Reading measure is
+   narrower than the container because this is prose, not a grid.
+========================================================================== */
+.wwd { max-width: 760px; padding-top: 8px; }
+.wwd-block { padding: 44px 0; border-bottom: 1px solid var(--border); }
+.wwd-block:last-child { border-bottom: none; }
+
+.wwd h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  color: var(--blue);
+  margin-bottom: 18px;
+}
+.wwd h3 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--navy);
+  letter-spacing: 0.01em;
+  margin: 30px 0 8px;
+}
+.wwd p { font-size: 1.02rem; line-height: 1.8; margin-bottom: 16px; }
+
+/* The community section is the part no competitor can copy, so it is the one
+   block that gets a background. One emphasis, not five. */
+.wwd-block--commit {
+  background: var(--aqua-bg);
+  border-top: 3px solid var(--gold);
+  border-bottom: none;
+  border-radius: 12px;
+  padding: 36px 32px 40px;
+  margin: 20px 0 72px;
+}
+.wwd-block--commit h2 { margin-bottom: 16px; }
+.wwd-block--commit .btn-primary { margin-top: 10px; }
+
+@media (max-width: 560px) {
+  .wwd-block--commit { padding: 28px 22px 32px; }
+}
