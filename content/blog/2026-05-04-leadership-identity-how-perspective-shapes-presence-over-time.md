@@ -8,7 +8,6 @@ words: 544
 source: Wave 5 Cycle 3 Wk 1
 written_for: 2026-03-30
 review:
-  - a paragraph begins lowercase ("a clash between personal standards..."), a fragment that is in the source document too
   - location phrase repeated 4x in the prose
   - opens with a line that reads as a meta description, not a paragraph
 ---
@@ -38,9 +37,7 @@ This is a core part of leadership identity development.
 
 The way leaders interpret tone, follow through, responsiveness, and ownership is often shaped by experiences that existed long before the current role.
 
-In this case, what initially felt like disrespect began to reveal itself as something different:
-
-a clash between personal standards and role expectations.
+In this case, what initially felt like disrespect began to reveal itself as something different: a clash between personal standards and role expectations.
 
 That distinction changed everything.
 
