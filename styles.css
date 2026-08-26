@@ -850,6 +850,10 @@ picture { display: contents; }
 .chat-logo img { width: 96px; height: auto; }
 
 .chat-photo {
+  /* auto side margins, NOT text-align: the global reset makes every img a
+     block, and text-align does not centre a block box. */
+  margin-left: auto;
+  margin-right: auto;
   width: 132px;
   height: 132px;
   object-fit: cover;
@@ -901,13 +905,25 @@ picture { display: contents; }
    grammar is the portal's: a soft band with the identity pulled up over its
    lower edge.
 ───────────────────────────────────────────────────────────────────────────── */
-.chat-page--tinted { padding-top: 0; }
+/* The band spans the viewport, the reading column does not. Done by dropping
+   the max-width on the page and re-applying it to .chat-body, rather than the
+   usual 100vw trick: 100vw includes the scrollbar, so that overshoots by ~15px
+   and puts a sideways scroll on every desktop browser. */
+.chat-page--tinted {
+  max-width: none;
+  padding: 0 0 80px;
+}
+.chat-page--tinted .chat-body {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
 
 .chat-band {
   background: var(--aqua-bg);
-  margin: 0 -24px 0;
-  padding: 48px 24px 64px;
   border-bottom: 3px solid var(--gold);
+  padding: 48px 24px 64px;
+  text-align: center;
 }
 .chat-page--tinted .chat-logo { margin-bottom: 0; }
 
@@ -916,6 +932,7 @@ picture { display: contents; }
 .chat-page--tinted .chat-photo { margin-top: -66px; margin-bottom: 18px; }
 
 @media (max-width: 480px) {
-  .chat-band { margin: 0 -20px 0; padding: 36px 20px 56px; }
+  .chat-band { padding: 36px 20px 56px; }
+  .chat-page--tinted .chat-body { padding: 0 20px; }
   .chat-page--tinted .chat-photo { margin-top: -56px; }
 }
