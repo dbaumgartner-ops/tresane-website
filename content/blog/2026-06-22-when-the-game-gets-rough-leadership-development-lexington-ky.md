@@ -8,8 +8,7 @@ words: 894
 source: Wave 5 Cycle 5 Wk 2
 written_for: 2026-05-18
 review:
-  - location keyword in the title
-  - location phrase repeated 5x in the prose
+  - location keyword in the title (changing it changes the URL)
 ---
 One of the patterns that surfaces most consistently is the moment when a leader has already done everything right and the situation still does not respond the way it should. The internal work is done. The conversation has happened. The right people have been brought in. And the dynamic continues anyway. What a leader does in that moment, how they stay oriented toward the outcome without losing themselves in the frustration of the process, tends to reveal something that smoother circumstances rarely can.
 

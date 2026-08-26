@@ -7,9 +7,7 @@ excerpt: "A leader reflected on time spent as a high level college athlete, wher
 words: 824
 source: Wave 5 Cycle 4 Wk 1
 written_for: 2026-04-20
-review:
-  - location phrase repeated 5x in the prose
-  - opens with a line that reads as a meta description, not a paragraph
+review: []
 ---
 The Pattern Beneath the Moment
 

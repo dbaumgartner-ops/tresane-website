@@ -8,7 +8,7 @@ words: 527
 source: Wave 5 Cycle 3 Wk 3
 written_for: 2026-04-13
 review:
-  - location phrase repeated 7x in the prose
+  - short (469 words), fine if it tells a story
 ---
 A female-owned entrepreneurial business in Central Kentucky recently faced a moment that many growing companies eventually encounter.
 

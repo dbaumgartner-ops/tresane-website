@@ -7,8 +7,7 @@ excerpt: "Clarity rarely waits for calm. Leadership coaching Lexington KY leader
 words: 1029
 source: Wave 5 Cycle 6 Wk 1
 written_for: 2026-06-01
-review:
-  - location phrase repeated 4x in the prose
+review: []
 ---
 There is a particular kind of exhaustion that leaders in Central Kentucky know well. Not the tiredness that comes from a hard day. The kind that comes from carrying too many things at once across too many days, with no obvious moment on the horizon where any of it gets lighter. The work keeps arriving. The home keeps needing. The calendar keeps filling. And somewhere in the middle of all of it, a leader is trying to think clearly in conditions that have never once paused to make thinking easier.
 

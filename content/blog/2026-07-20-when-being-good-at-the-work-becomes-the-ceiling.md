@@ -7,8 +7,7 @@ excerpt: "Team development Lexington KY leaders trust begins when capability shi
 words: 1201
 source: Wave 5 Cycle 6 Wk 3
 written_for: 2026-06-15
-review:
-  - location phrase repeated 6x in the prose
+review: []
 ---
 Central Kentucky has always produced a particular kind of leader. Technical, precise, results-oriented. Someone who came up through the work itself, engineering, operations, quality, logistics, and got noticed because they were exceptionally good at it. These are the leaders who get selected, developed, and asked to take on more. They move up because they deliver. And at a certain point, without much announcement, the thing that moved them up becomes the thing standing between them and the next level of impact.
 

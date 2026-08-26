@@ -7,8 +7,7 @@ excerpt: "Those expectations shape how situations are interpreted, how disagreem
 words: 877
 source: Wave 5 Cycle 2 Wk 1
 written_for: 2026-03-09
-review:
-  - location phrase repeated 8x in the prose
+review: []
 ---
 Leadership pressure rarely begins with workload alone.
 

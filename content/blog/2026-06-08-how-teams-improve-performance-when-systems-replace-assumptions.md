@@ -7,9 +7,7 @@ excerpt: "Executive coaching Central Kentucky insights on team systems, accounta
 words: 653
 source: Wave 5 Cycle 4 Wk 3
 written_for: 2026-05-04
-review:
-  - location phrase repeated 5x in the prose
-  - opens with a line that reads as a meta description, not a paragraph
+review: []
 ---
 The Pattern Beneath the Work
 

@@ -8,8 +8,7 @@ words: 1072
 source: Wave 5 Cycle 5 Wk 3
 written_for: 2026-05-25
 review:
-  - location keyword in the title
-  - location phrase repeated 6x in the prose
+  - location keyword in the title (changing it changes the URL)
 ---
 One of the most recognizable patterns is the moment when a business outgrows the people who built it, not because those people are no longer capable, but because the work has expanded beyond what a small group of deeply familiar individuals can carry alone. That moment does not arrive loudly. It tends to surface through friction, through missed steps, through the quiet exhaustion of a system that was built for a different size of operation trying to hold a larger one together.
 

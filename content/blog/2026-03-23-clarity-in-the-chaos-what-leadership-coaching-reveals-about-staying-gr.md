@@ -7,8 +7,7 @@ excerpt: "Some weeks arrive already loud. Calendars compress. Messages stack. De
 words: 1015
 source: Wave 5 Cycle 1 Wk 1
 written_for: 2026-02-16
-review:
-  - "Abysses" - likely a transcription error
+review: []
 ---
 Some weeks arrive already loud. Calendars compress. Messages stack. Decisions wait in the hallway. The work keeps moving, and life keeps moving with it. In those moments, clarity in leadership can feel less like a skill and more like a scarce resource.
 

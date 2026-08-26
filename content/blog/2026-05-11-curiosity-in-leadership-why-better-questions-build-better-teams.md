@@ -8,7 +8,7 @@ words: 531
 source: Wave 5 Cycle 3 Wk 2
 written_for: 2026-04-06
 review:
-  - location phrase repeated 7x in the prose
+  - short (472 words), fine if it tells a story
 ---
 A Central Kentucky leader working across a North American manufacturing footprint recently described a leadership shift that many experienced leaders quietly face.
 

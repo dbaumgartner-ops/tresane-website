@@ -7,8 +7,7 @@ excerpt: "Leadership development Lexington KY leaders trust begins when feedback
 words: 1132
 source: Wave 5 Cycle 6 Wk 2
 written_for: 2026-06-08
-review:
-  - location phrase repeated 4x in the prose
+review: []
 ---
 There is a particular kind of week that leaders in Central Kentucky know without needing it described. The week when something you were quietly hoping for does not come through. When the call with the hiring manager goes the way those calls sometimes go, promising enough to stay in, ambiguous enough to leave room for doubt, and then the follow-up arrives and removes the ambiguity. The door closes. The work continues. And somewhere inside the continuation, a question is sitting that the calendar does not have space for.
 

@@ -8,8 +8,7 @@ words: 867
 source: Wave 6 Cycle 1 Wk 3
 written_for: 2026-07-06
 review:
-  - location keyword in the title
-  - location phrase repeated 5x in the prose
+  - location keyword in the title (changing it changes the URL)
 ---
 There is a particular feeling that teams describe when purpose clarity finally arrives. It does not tend to feel like a breakthrough. It tends to feel like something settling. Like the words that were written at the beginning of the work have finally become true enough to be felt rather than just stated.
 

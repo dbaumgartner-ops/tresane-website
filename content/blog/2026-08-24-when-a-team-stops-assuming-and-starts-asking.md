@@ -8,8 +8,7 @@ words: 478
 source: Wave 6 Cycle 2 Wk 2
 written_for: 2026-07-20
 review:
-  - location phrase repeated 5x in the prose
-  - short (478 words)
+  - short (448 words), fine if it tells a story
 ---
 There is an entrepreneurial business in Central Kentucky that offers a useful example of team development leaders will likely recognize in their own organizations. The owner spent years making nearly every operational decision personally. Over time, that changed, gradually, as trust grew that the business could run well without the owner involved in every choice.
 
