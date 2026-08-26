@@ -15,6 +15,19 @@
   /* Text on a GOLD background. --navy is 4.21:1 there, just under the 4.5
      needed at 14px. Same hue, one shade deeper, 5.0:1 with headroom. */
   --ink-on-gold: #133b57;
+  /* Gold as TEXT needs a different value depending on what it sits on, because
+     #DFA32C lands just the wrong side of the line in both directions:
+       on navy  4.21, and small text needs 4.5
+       on white 2.23, and even large text needs 3
+     These two clear it with headroom. --gold itself is unchanged and stays the
+     brand colour everywhere it does visual work: borders, icons, the ribbon,
+     button backgrounds. Only letters use these. */
+  --gold-on-dark:  #eeae2f;   /* 4.81 on --navy  */
+  --gold-on-light: #b68524;   /* 3.30 on white   */
+  /* Text on the GOLD gradient panel, which runs to #c48f22 -- darker than the
+     flat gold, so --ink-on-gold (4.08 there) is not enough. 4.62 at the dark
+     end, 5.96 at the light. */
+  --ink-on-gold-panel: #10324a;
   --aqua-bg:    #EBF4FA;
   --off-white:  #F8F8F8;
   --border:     #E5E5E5;
@@ -293,7 +306,9 @@ h3 { font-size: 1.2rem; color: var(--body); }
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.6;
-  color: var(--white);
+  /* Was --white: 2.23 on the light end of this gold panel, 2.88 on the dark.
+     Dark ink gives 5.96 / 4.62. */
+  color: var(--ink-on-gold-panel);
   border: none;
   margin: 0;
 }
@@ -358,7 +373,7 @@ h3 { font-size: 1.2rem; color: var(--body); }
   align-items: center;
 }
 
-.weq .section-label { color: var(--gold); }
+.weq .section-label { color: var(--gold-on-dark); }   /* 12px: was 4.21, needs 4.5 */
 .weq h2 { color: var(--white); margin-bottom: 20px; }
 .weq p { color: rgba(255,255,255,0.8); margin-bottom: 16px; line-height: 1.8; }
 .weq .btn-primary { margin-top: 8px; }
@@ -530,7 +545,7 @@ h3 { font-size: 1.2rem; color: var(--body); }
 }
 
 .cta p {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.88);   /* 0.8 was 4.35 at the gradient blue end */
   max-width: 600px;
   margin: 0 auto 40px;
   line-height: 1.8;
@@ -546,10 +561,12 @@ h3 { font-size: 1.2rem; color: var(--body); }
 
 .cta-contact {
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.88);   /* 0.6 was 3.3 */
   margin-bottom: 0 !important;
 }
-.cta-contact a { color: var(--gold); text-decoration: underline; }
+/* White, not gold: gold is 2.62 on this gradient and even --gold-on-dark only
+   reaches 2.98. White is 5.84, and the underline already says it is a link. */
+.cta-contact a { color: var(--white); text-decoration: underline; }
 
 /* ── FOOTER ─────────────────────────────────────────────────────────────── */
 
@@ -567,7 +584,7 @@ h3 { font-size: 1.2rem; color: var(--body); }
 }
 
 .footer-brand img { margin-bottom: 12px; }
-.footer-tagline { font-size: 0.85rem; color: var(--gold); }
+.footer-tagline { font-size: 0.85rem; color: var(--gold-on-dark); }   /* 14px: was 4.21 */
 
 .footer-links h3, .footer-contact h3 {
   font-family: var(--font-body);
@@ -593,7 +610,9 @@ h3 { font-size: 1.2rem; color: var(--body); }
   border-top: 1px solid rgba(255,255,255,0.1);
   padding-top: 24px;
 }
-.footer-bottom p { font-size: 0.8rem; color: rgba(255,255,255,0.4); }
+/* 0.4 measured 2.89 on the navy footer. 0.7 gives 5.53, and this carries the
+   three registered-trademark marks, which inherit it. */
+.footer-bottom p { font-size: 0.8rem; color: rgba(255,255,255,0.7); }
 
 /* ── RESPONSIVE ─────────────────────────────────────────────────────────── */
 
