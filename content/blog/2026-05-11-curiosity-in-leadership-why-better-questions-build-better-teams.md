@@ -9,6 +9,10 @@ source: Wave 5 Cycle 3 Wk 2
 written_for: 2026-04-06
 
   - short (472 words), fine if it tells a story
+
+  - short (472 words), fine if it tells a story
+
+  - short (472 words), fine if it tells a story
 review:
   - short (472 words), fine if it tells a story
 ---
