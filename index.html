@@ -6,12 +6,12 @@
   <title>Tresane · Bringing Workplaces Together®</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Loaded non-blocking: media="print" keeps it off the critical path, and
-       onload flips it to all so it still applies. display=swap was ALREADY on
-       the URL, so the fonts always swapped in late -- this only stops the
-       request holding up first paint. The Lighthouse filmstrip showed three
-       blank frames waiting on it. noscript copy keeps it working without JS. -->
-  <link rel="stylesheet" media="print" onload="this.media='all';this.onload=null"
+  <!-- Non-blocking AND high priority. media="print" also unblocks, but it
+       fetches at low priority, so the font swap landed late enough to push
+       Speed Index from 2.9s to 4.6s. preload as=style gets it early without
+       ever blocking the render. display=swap is on the URL, so text shows in
+       the fallback immediately either way. -->
+  <link rel="preload" as="style" onload="this.rel='stylesheet';this.onload=null"
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" />
   <noscript><link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" /></noscript>
@@ -27,7 +27,7 @@
   <nav class="nav">
     <div class="nav-inner">
       <a href="/" class="nav-logo">
-        <img src="assets/logo-simple.png" alt="Tresane" width="1158" height="701" />
+        <img src="assets/logo-simple.png" alt="Tresane" width="220" height="133" />
       </a>
       <ul class="nav-links">
         <li><a href="#how-we-work">How We Work</a></li>
@@ -97,9 +97,12 @@
            loading="lazy" + explicit width/height: the diagram is below the fold,
            so it never blocks first paint, and the reserved box means the page
            does not jump when it arrives. -->
-      <img class="dia" src="assets/tresane-model.png" width="1200" height="1200"
+      <picture>
+        <source srcset="assets/tresane-model.webp" type="image/webp" />
+      <img class="dia" src="assets/tresane-model.png" width="800" height="800"
            loading="lazy" decoding="async"
            alt="The Tresane Model: three interlocking domains, Align Self, Align Relationships and Align Teams, circling the Tresane mark. They are interconnected rather than sequential.">
+      </picture>
 
       <div class="dia-legend dia-legend-3">
         <p><b>Align Self.</b> Clarity of values, identity, and purpose. Leaders who know what grounds them can hold pressure without being consumed by it.</p>
@@ -252,7 +255,10 @@
     <div class="container">
       <div class="book-grid">
         <div class="book-cover">
-          <img src="assets/book-cover.jpg" alt="Leading Without Closure by David Baumgartner" class="book-cover-img" width="642" height="858" loading="lazy" decoding="async" />
+          <picture>
+            <source srcset="assets/book-cover.webp" type="image/webp" />
+            <img src="assets/book-cover.jpg" alt="Leading Without Closure by David Baumgartner" class="book-cover-img" width="560" height="748" loading="lazy" decoding="async" />
+          </picture>
         </div>
         <div class="book-text">
           <div class="section-label">The Thinking Behind Tresane</div>
@@ -279,7 +285,10 @@
           <p class="about-tagline">Bringing Workplaces Together<sup>®</sup>. One Leader, One Team at a Time</p>
         </div>
         <div class="about-david">
-          <img src="assets/david.jpg" alt="David Baumgartner, Founder of Tresane" class="david-photo" width="1762" height="1174" loading="lazy" decoding="async" />
+          <picture>
+            <source srcset="assets/david.webp" type="image/webp" />
+            <img src="assets/david.jpg" alt="David Baumgartner, Founder of Tresane" class="david-photo" width="720" height="480" loading="lazy" decoding="async" />
+          </picture>
           <div class="david-bio">
             <h3>David Baumgartner</h3>
             <p class="david-title">Founder, Tresane LLC</p>

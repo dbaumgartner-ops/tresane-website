@@ -790,3 +790,10 @@ h3 { font-size: 1.2rem; color: var(--body); }
    600 unit viewBox so its corners stay clear of the four beat circles, whose
    inner edges sit 110 out from centre. */
 .dia-hub-img { }
+
+/* A <picture> must not become the layout box. The sizing rules live on the
+   img inside it (.dia, .book-cover-img, .david-photo), and wrapping them made
+   the picture the flex item instead -- David's photo ended up in a 412px box
+   holding a 320px image. display:contents removes the wrapper from layout so
+   every one of those rules applies exactly as it did before WebP sources. */
+picture { display: contents; }
