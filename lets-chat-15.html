@@ -21,9 +21,11 @@
 <body>
   <main class="chat-page chat-page--tinted">
     <div class="chat-band">
-      <a href="/" class="chat-logo" aria-label="Tresane home">
-        <img src="/assets/logo-simple.png" alt="Tresane" width="220" height="133" />
-      </a>
+      <div class="chat-band-inner">
+        <a href="/" class="chat-logo" aria-label="Tresane home">
+          <img src="/assets/logo-simple.png" alt="Tresane" width="220" height="133" />
+        </a>
+      </div>
     </div>
 
     <div class="chat-body">
@@ -52,6 +54,29 @@
 
     <p class="chat-sign">David Baumgartner<br /><span>Founder, Tresane</span></p>
     </div>
+
+    <!-- The site footer, minus the three link columns. Those are eight exits,
+         and this page has one job. Logo, tagline, contact and the trademark
+         line: brand weight and legal completeness, nothing competing with the
+         button. -->
+    <footer class="footer chat-footer">
+      <div class="container">
+        <div class="chat-footer-grid">
+          <div class="footer-brand">
+            <img src="/assets/logo-simple.png" alt="Tresane" width="220" height="133" />
+            <p class="footer-tagline">Bringing Workplaces Together<sup>&reg;</sup></p>
+          </div>
+          <div class="footer-contact">
+            <p><a href="mailto:information@tresane.com">information@tresane.com</a></p>
+            <p><a href="tel:+18669825837">(866) 982-5837</a></p>
+            <p>Central Kentucky</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Tresane, LLC. All rights reserved. Tresane<sup>&reg;</sup>, Tresane Model<sup>&reg;</sup>, and Bringing Workplaces Together<sup>&reg;</sup> are registered trademarks of Tresane, LLC.</p>
+        </div>
+      </div>
+    </footer>
   </main>
 </body>
 </html>
