@@ -9,8 +9,6 @@ source: Wave 6 Cycle 1 Wk 2
 written_for: 2026-06-29
 review: []
 ---
-Graphic Phrase: The value was not wrong. The gap between intention and impact just needed to be examined.
-
 There is a particular kind of leadership pattern that does not announce itself as a problem. It shows up quietly, through the accumulated experience of people on the receiving end of something the leader has always understood as a strength.
 
 This pattern surfaces regularly in leadership development work across Atlanta and the broader Southeast. A value that has served a leader well for a long time. A reputation built around that value. And somewhere beneath the surface, a gap between how the value feels from the inside and how it lands on the outside that has simply never needed to be examined before now.

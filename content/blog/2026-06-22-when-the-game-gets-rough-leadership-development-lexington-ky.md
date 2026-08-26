@@ -11,14 +11,6 @@ review:
   - location keyword in the title
   - location phrase repeated 5x in the prose
 ---
-Anchored to a Vision Amid Life's Curveballs
-
-Leadership development Lexington KY: staying anchored when relationships get complicated and the calls don't go your way.
-
-Graphic Phrase: The Foul Gets Called. The Leader Stays in the Game.
-
-Full Blog:
-
 In leadership development work in Lexington KY, one of the patterns that surfaces most consistently is the moment when a leader has already done everything right and the situation still does not respond the way it should. The internal work is done. The conversation has happened. The right people have been brought in. And the dynamic continues anyway. What a leader does in that moment, how they stay oriented toward the outcome without losing themselves in the frustration of the process, tends to reveal something that smoother circumstances rarely can.
 
 This is the second part of a story that began with a leader learning to name what was actually frustrating her. That internal clarity was the foundation. What came next was the harder work of staying in a relationship that was not going to become what she needed it to be.

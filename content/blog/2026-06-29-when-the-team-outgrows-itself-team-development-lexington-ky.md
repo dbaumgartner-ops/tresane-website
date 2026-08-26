@@ -11,18 +11,6 @@ review:
   - location keyword in the title
   - location phrase repeated 6x in the prose
 ---
-Fostering Team Learning and Resilience
-
-Team development Lexington KY explores how a legacy business built resilience by learning to hold difference and grow beyond familiar walls.
-
-Team development Lexington KY: how a legacy business built resilience by learning to hold difference and grow.
-
-Graphic Phrase: A Team That Learns Together Grows Beyond What Any One Person Can Hold
-
-Full Blog:
-
-Team Development Lexington KY: When Growth Changes Everything
-
 In team development work in Lexington KY, one of the most recognizable patterns is the moment when a business outgrows the people who built it, not because those people are no longer capable, but because the work has expanded beyond what a small group of deeply familiar individuals can carry alone. That moment does not arrive loudly. It tends to surface through friction, through missed steps, through the quiet exhaustion of a system that was built for a different size of operation trying to hold a larger one together.
 
 This is a story about a business that reached that moment and what began to shift when the team found a new way to see itself.

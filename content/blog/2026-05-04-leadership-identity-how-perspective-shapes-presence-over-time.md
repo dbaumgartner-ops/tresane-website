@@ -8,12 +8,8 @@ words: 544
 source: Wave 5 Cycle 3 Wk 1
 written_for: 2026-03-30
 review:
-  - location phrase repeated 4x in the prose
+  - location phrase repeated 4x in the prose  - opens with a line that reads as a meta description, not a paragraph
 ---
-leadership-identity-executive-coaching-kentucky
-
-executive coaching
-
 Executive coaching insights from Lexington on how leadership identity and emotional patterns shape team expectations.
 
 A recent executive coaching conversation in Lexington brought forward a leadership pattern that shows up more often than many leaders realize.

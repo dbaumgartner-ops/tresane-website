@@ -1,28 +1,40 @@
-// One-off cleanup over content/blog/*.md.
+// Cleanup over content/blog/*.md. Safe to re-run: every rule is idempotent.
 //
-// Two jobs that turned out to be the same job: the em-dashes David flagged were
-// almost all inside PRODUCTION SCAFFOLDING the extractor let through ("BLOG —
-// Thursday, May 21", "(134 characters — trimming)"), not inside prose. Removing
-// the scaffolding removes most of the dashes.
+// The posts came out of an AI drafting conversation, so each one carries notes
+// ABOUT writing the post mixed in with the post: "Trimming:", "Graphic Phrase:",
+// character counts, a shortened duplicate of the title. Those notes are also
+// where nearly every em dash lived, so removing them serves the brand rule too.
 //
-// Safe to re-run: every rule is idempotent.
+// THE RULE THAT DOES THE REAL WORK is not the pattern list, it is this:
+// everything before the first REAL paragraph is scaffolding. A list of labels
+// will always miss the next label nobody predicted ("Trimming:" got through a
+// list that had "trim" in it, because \b does not match mid-word).
 import fs from 'node:fs'
 import path from 'node:path'
 
 const SRC = 'content/blog'
 
-// Lines that are production notes, never content.
+// Legitimate headings. These may appear before prose and must survive.
+const SECTION = /^(opening reflection|naming the pattern|expanded perspective|what steady leaders tend to notice|closing reflection|the story|what this reveals about leadership|where misalignment begins|patterns that repeat over time|reflection as a leadership pattern|return to the story|introduction)/i
+
+// Production notes, anywhere in the file.
 const JUNK = [
-  /^\(?\d+\s*characters?\b/i,              // "(134 characters — trimming)"
-  /^blog\s*[—-]\s*(mon|tue|wed|thur|thu|fri|sat|sun)/i,
-  /^(newsletter|blog|social|linkedin)\s*(\(revised\))?$/i,
-  /^(graphic|image|alt text|caption)\s*:/i,
-  /^(trim|trimmed|revised|option \d)\b/i,
+  /^\(?\d+\s*characters?\b/i,
+  /^trim/i,                                   // Trim, Trimmed, Trimming:
+  /^graphic\b/i,                              // Graphic:, Graphic Phrase:
+  /^(image|alt text|caption|photo)\b\s*:/i,
+  /^(meta description|slug|url|focus keyphrase|primary keyword|secondary keywords?|location modifier|seo title|title|theme|keyword|category|tags?|word count|reading time|cta)\s*:/i,
+  /^blog\s*[,:-]?\s*(mon|tue|wed|thur|thu|fri|sat|sun)/i,
+  /^(newsletter|blog|social|linkedin)\s*(\(revised\))?\s*:?$/i,
+  /^(revised|option \d|version \d)\b/i,
   /^(wordpress|yoast|rankmath)\b/i,
-  /^\(.*\b(trim|character|word count|version)\b.*\)$/i,
+  /^(here is|below is|perfect\.|paste the|copy the|note:|instructions?:)/i,
 ]
 
-let changed = 0, dashesLeft = []
+const isJunk = t => JUNK.some(rx => rx.test(t))
+const isProse = t => t.length > 100 && !isJunk(t)
+
+let changed = 0, trimmedTop = []
 
 for (const file of fs.readdirSync(SRC).filter(f => f.endsWith('.md'))) {
   const p = path.join(SRC, file)
@@ -31,48 +43,71 @@ for (const file of fs.readdirSync(SRC).filter(f => f.endsWith('.md'))) {
   if (!m) continue
 
   let fm = m[1]
-  let body = m[2].split(/\r?\n/)
+  const title = (fm.match(/^title:\s*"(.*)"$/m) || [, ''])[1]
+  let body = m[2].split(/\r?\n/).map(s => s.trim()).filter(Boolean)
 
-  // 1. Drop scaffolding lines.
-  body = body.filter(line => {
-    const t = line.trim()
-    if (!t) return true
-    return !JUNK.some(rx => rx.test(t))
-  })
+  // 0. An explicit "FULL BLOG" / "FULL SEO BLOG" marker means the drafting
+  //    conversation is above it and the post is below. Cut there first, because
+  //    a stray meta description sitting above the marker is long enough to look
+  //    like a real paragraph and would otherwise survive rule 1.
+  const marker = body.map((t, i) => /^full[ ]+(seo[ ]+)?blog/i.test(t) ? i : -1)
+    .filter(i => i >= 0).pop()
+  if (marker >= 0) body = body.slice(marker + 1)
 
-  // 2. A domain label prefixing a line is a heading artefact, not prose.
-  body = body.map(line =>
-    line.replace(/^(Align (?:Self|Relationships|Teams))\s*[—–-]\s*/, ''))
+  // 1. Drop everything before the first real paragraph or genuine heading.
+  //    This is what catches labels nobody thought to list.
+  const start = body.findIndex(t => isProse(t) || SECTION.test(t))
+  if (start > 0) { trimmedTop.push(`${file.slice(0, 34)}: dropped ${start}`); body = body.slice(start) }
 
-  // 3. Remaining em/en dashes become punctuation that reads as written rather
-  //    than generated. A dash between clauses becomes a comma; a dash used as a
-  //    colon (label — value) becomes a colon.
-  const fixDashes = s => s
-    .replace(/\s*[—–]\s*$/g, '')                 // trailing
-    .replace(/^\s*[—–]\s*/g, '')                 // leading
-    .replace(/(\w)\s*[—–]\s*(\w)/g, '$1, $2')    // between words
-    .replace(/\s*[—–]\s*/g, ', ')                // anything left
-  body = body.map(fixDashes)
-  fm = fm.split('\n').map(l =>
-    /^(title|excerpt):/.test(l) ? fixDashes(l) : l).join('\n')
+  // 1c. A bare keyword left on its own line ("executive coaching").
+  body = body.filter(t =>
+    !(t.length < 42 && !/[.!?:]$/.test(t) && t === t.toLowerCase() && !SECTION.test(t)))
 
-  // 4. An excerpt built from a production note is not an excerpt. Rebuild it
-  //    from the first real paragraph.
-  const ex = fm.match(/^excerpt:\s*"([^"]*)"/m)
-  if (ex && /\bcharacters?\b|\btrim\b|^\(/i.test(ex[1])) {
-    const firstProse = body.find(l => l.trim().length > 110)
-    if (firstProse) {
-      fm = fm.replace(/^excerpt:\s*".*"$/m,
-        'excerpt: "' + firstProse.trim().replace(/"/g, "'").slice(0, 220) + '"')
-    }
+  // 1b. A lone meta description survives rule 1 because it is long enough to
+  //     look like prose. What gives it away is that it is ONE sentence, and a
+  //     real opening paragraph almost never is.
+  const sentences = t => t.split(/[.!?](s|$)/).filter(x => x && x.trim().length > 12).length
+  if (body.length > 1 && sentences(body[0]) === 1 && body[0].length < 210 && sentences(body[1]) > 1) {
+    body = body.slice(1)
   }
 
-  const out = '---\n' + fm + '\n---\n' + body.join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n'
-  if (out !== raw) { fs.writeFileSync(p, out); changed++ }
+  // 2. Junk can also appear mid-document, between sections.
+  body = body.filter(t => !isJunk(t))
 
-  const left = (out.match(/[–—]/g) || []).length
-  if (left) dashesLeft.push(file + ': ' + left)
+  // 3. A shortened echo of the title is a drafting artefact, not a heading.
+  const norm = s => s.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim()
+  body = body.filter(t =>
+    !(t.length < 70 && !SECTION.test(t) && norm(title).startsWith(norm(t)) && norm(t).length > 12))
+
+  // 4. A domain label prefixing a line is a heading artefact.
+  body = body.map(l => l.replace(/^(Align (?:Self|Relationships|Teams))\s*[—–-]\s*/, ''))
+
+  // 5. No em or en dashes, in the body or the front matter.
+  const fixDashes = s => s
+    .replace(/\s*[—–]\s*$/g, '')
+    .replace(/^\s*[—–]\s*/g, '')
+    .replace(/(\w)\s*[—–]\s*(\w)/g, '$1, $2')
+    .replace(/\s*[—–]\s*/g, ', ')
+  body = body.map(fixDashes)
+  fm = fm.split('\n').map(l => /^(title|excerpt):/.test(l) ? fixDashes(l) : l).join('\n')
+
+  // 6. An excerpt built from a production note is not an excerpt.
+  const ex = fm.match(/^excerpt:\s*"([^"]*)"/m)
+  if (ex && (isJunk(ex[1]) || /\bcharacters?\b|\btrim\b/i.test(ex[1]) || ex[1].length < 60)) {
+    const first = body.find(isProse)
+    if (first) fm = fm.replace(/^excerpt:\s*".*"$/m,
+      'excerpt: "' + first.replace(/"/g, "'").slice(0, 220) + '"')
+  }
+
+  const out = '---\n' + fm + '\n---\n' + body.join('\n\n') + '\n'
+  if (out !== raw) { fs.writeFileSync(p, out); changed++ }
 }
 
 console.log(changed + ' of 24 files changed')
-console.log(dashesLeft.length ? 'dashes remaining:\n  ' + dashesLeft.join('\n  ') : 'no em or en dashes remain')
+if (trimmedTop.length) {
+  console.log('\nscaffolding removed from the top of:')
+  trimmedTop.forEach(t => console.log('  ' + t))
+}
+const left = fs.readdirSync(SRC).reduce((n, f) =>
+  n + ((fs.readFileSync(path.join(SRC, f), 'utf8').match(/[–—]/g) || []).length), 0)
+console.log('\nem/en dashes remaining: ' + left)

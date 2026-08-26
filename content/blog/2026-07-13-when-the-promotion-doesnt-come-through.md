@@ -10,8 +10,6 @@ written_for: 2026-06-08
 review:
   - location phrase repeated 4x in the prose
 ---
-Graphic Phrase: He never made the widgets. That was never the work.
-
 There is a particular kind of week that leaders in Central Kentucky know without needing it described. The week when something you were quietly hoping for does not come through. When the call with the hiring manager goes the way those calls sometimes go, promising enough to stay in, ambiguous enough to leave room for doubt, and then the follow-up arrives and removes the ambiguity. The door closes. The work continues. And somewhere inside the continuation, a question is sitting that the calendar does not have space for.
 
 Leadership development in Lexington KY tends to surface this kind of moment more often than formal programs expect. Not because leaders here are navigating more disappointment than leaders elsewhere. Because the work that happens in real development conversations does not stay on the agenda. It goes where the leader actually is. And where a leader actually is, in the week a promotion does not come through, is rarely where the 360 debrief was scheduled to begin.
@@ -57,5 +55,3 @@ He left with two things in his development plan. One of them was a sentence he h
 The now what is still a live question for him. But it is a different question than it was before he could name what he has actually been doing all along.
 
 This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.
-
-Graphic phrase, He never made the widgets. That was never the work., is your featured image text. That one will stop people mid-scroll.

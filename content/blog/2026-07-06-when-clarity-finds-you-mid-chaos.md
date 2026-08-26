@@ -10,10 +10,6 @@ written_for: 2026-06-01
 review:
   - location phrase repeated 4x in the prose
 ---
-Graphic phrase, Footing forms in the middle. Not after., is your featured image text.
-
-Graphic Phrase: Footing forms in the middle. Not after.
-
 There is a particular kind of exhaustion that leaders in Central Kentucky know well. Not the tiredness that comes from a hard day. The kind that comes from carrying too many things at once across too many days, with no obvious moment on the horizon where any of it gets lighter. The work keeps arriving. The home keeps needing. The calendar keeps filling. And somewhere in the middle of all of it, a leader is trying to think clearly in conditions that have never once paused to make thinking easier.
 
 Leadership coaching in Lexington KY tends to surface this reality quickly. Not because the leaders here are struggling more than leaders elsewhere. Because they are close enough to the ground that there is less distance between them and the actual weight of what they are carrying. The buffer is thinner. The conditions are real. And the pressure to appear unaffected by those conditions while still performing inside them is one of the quieter costs of leadership that rarely gets named directly.

@@ -10,32 +10,6 @@ written_for: 2026-04-13
 review:
   - location phrase repeated 7x in the prose
 ---
-team-expectations-growing-business-central-kentucky
-
-team leadership
-
-Secondary and Long Tail Keywords
-
-team purpose alignment
-
-leadership team clarity
-
-team effectiveness
-
-entrepreneurial leadership
-
-female owned business leadership
-
-team expectations
-
-leadership teams Kentucky
-
-Central Kentucky business growth
-
-How a Central Kentucky female-owned business uses team expectations to protect customer experience during growth.
-
-FULL SEO BLOG
-
 A female-owned entrepreneurial business in Central Kentucky recently faced a moment that many growing companies eventually encounter.
 
 The business had been built on exceptional customer experience.

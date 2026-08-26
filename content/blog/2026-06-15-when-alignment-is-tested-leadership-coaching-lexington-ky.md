@@ -10,10 +10,6 @@ written_for: 2026-05-11
 review:
   - location keyword in the title
 ---
-Graphic Phrase (for your featured image inside WordPress): Alignment Does Not Require a Perfect Environment
-
-Full Blog:
-
 In leadership coaching work in Lexington KY, one of the most consistent patterns that surfaces is the gap between how a situation was expected to unfold and how it actually did. Leaders who are doing everything right, communicating clearly, holding themselves accountable, and staying focused on outcomes, sometimes find themselves in environments that do not respond the way they should. What happens next tends to reveal something important about where that leader actually is in their development.
 
 This is a story about one of those moments.

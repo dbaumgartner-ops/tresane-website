@@ -10,8 +10,6 @@ written_for: 2026-06-22
 review:
   - location phrase repeated 4x in the prose
 ---
-Graphic Phrase: The values that have always guided you are still worth examining.
-
 There is a particular kind of clarity that does not arrive all at once. It develops gradually, through a series of moments that each seem small on their own, until something that was always operating beneath the surface finally becomes visible enough to name.
 
 That is how it tends to work in leadership coaching in Lexington KY and across Central Kentucky. The presenting question is rarely about values. It is usually about a pattern. A recurring friction. A reaction that keeps arriving with more intensity than the situation seems to call for. A sense that something is running in the background without having been given permission to do so.

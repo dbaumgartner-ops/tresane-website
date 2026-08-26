@@ -11,12 +11,6 @@ review:
   - location keyword in the title
   - location phrase repeated 5x in the prose
 ---
-Trimming:
-
-Graphic Phrase: The purpose statement comes first. The clarity follows the work.
-
-When Purpose Becomes Real
-
 There is a particular feeling that teams describe when purpose clarity finally arrives. It does not tend to feel like a breakthrough. It tends to feel like something settling. Like the words that were written at the beginning of the work have finally become true enough to be felt rather than just stated.
 
 That feeling is worth paying attention to in team development work across Lexington KY and Central Kentucky because it tends to arrive later than expected and through a different door than most teams anticipate.

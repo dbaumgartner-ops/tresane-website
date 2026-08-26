@@ -10,12 +10,6 @@ written_for: 2026-03-09
 review:
   - location phrase repeated 8x in the prose
 ---
-leadership coaching
-
-leader mindset under pressureclarity for executivesleadership resilience
-
-leadership coaching Lexington KY
-
 Introduction
 
 Leadership pressure rarely begins with workload alone.

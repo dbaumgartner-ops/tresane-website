@@ -10,8 +10,6 @@ written_for: 2026-06-15
 review:
   - location phrase repeated 6x in the prose
 ---
-Graphic Phrase: The job changed. The habit didn't. That's the ceiling.
-
 Central Kentucky has always produced a particular kind of leader. Technical, precise, results-oriented. Someone who came up through the work itself, engineering, operations, quality, logistics, and got noticed because they were exceptionally good at it. These are the leaders who get selected, developed, and asked to take on more. They move up because they deliver. And at a certain point, without much announcement, the thing that moved them up becomes the thing standing between them and the next level of impact.
 
 Team development in Lexington KY and across Central Kentucky tends to surface this pattern quickly. Not because the leaders here are struggling more than leaders elsewhere. Because the industries that anchor this region, manufacturing, healthcare systems, supply chain, technical operations, produce a high concentration of leaders whose entire professional identity is built around their own capability. That identity is real and it earned everything it built. It also has a ceiling. And the ceiling tends to become visible right around the time the role stops rewarding the doing and starts requiring something else entirely.
@@ -57,5 +55,3 @@ For technical leaders navigating that shift in Central Kentucky right now, the c
 That is where team development in Lexington KY does its most durable work. Not in the training room. In the moment a leader stops solving and starts building.
 
 This reflection builds on the broader Align and Lead rhythm, where clarity, relationships, and teams are explored as lived leadership patterns.
-
-Graphic phrase, The job changed. The habit didn't. That's the ceiling., is your featured image text. That one will stop a technical leader mid-scroll.

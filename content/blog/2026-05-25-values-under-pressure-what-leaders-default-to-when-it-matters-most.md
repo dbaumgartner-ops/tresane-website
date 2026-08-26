@@ -8,11 +8,9 @@ words: 824
 source: Wave 5 Cycle 4 Wk 1
 written_for: 2026-04-20
 review:
-  - location phrase repeated 5x in the prose
+  - location phrase repeated 5x in the prose  - opens with a line that reads as a meta description, not a paragraph
 ---
 Leadership coaching Kentucky insights on values under pressure and how consistency shapes trust over time.
-
-leadership coaching
 
 Secondary and Long Tail Keywords:
 
