@@ -891,3 +891,31 @@ picture { display: contents; }
   .chat-page { padding: 40px 20px 60px; }
   .chat-photo { width: 112px; height: 112px; }
 }
+
+/* ── TINTED VARIANT, under test ────────────────────────────────────────────
+   A modifier, not a second page: /lets-chat-15 carries it, /lets-chat-30 does
+   not, so the two can be compared live before we decide what a simple page
+   should look like. Whichever wins, the loser is one class name to delete.
+
+   Uses --aqua-bg, already in the palette, rather than an invented colour. The
+   grammar is the portal's: a soft band with the identity pulled up over its
+   lower edge.
+───────────────────────────────────────────────────────────────────────────── */
+.chat-page--tinted { padding-top: 0; }
+
+.chat-band {
+  background: var(--aqua-bg);
+  margin: 0 -24px 0;
+  padding: 48px 24px 64px;
+  border-bottom: 3px solid var(--gold);
+}
+.chat-page--tinted .chat-logo { margin-bottom: 0; }
+
+/* Pulled up so it straddles the band edge, which is what makes it read as one
+   composition rather than a banner with a photo under it. */
+.chat-page--tinted .chat-photo { margin-top: -66px; margin-bottom: 18px; }
+
+@media (max-width: 480px) {
+  .chat-band { margin: 0 -20px 0; padding: 36px 20px 56px; }
+  .chat-page--tinted .chat-photo { margin-top: -56px; }
+}
