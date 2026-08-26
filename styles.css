@@ -12,6 +12,9 @@
   --gold:       #DFA32C;
   --gold-dark:  #c48f22;
   --navy:       #1a4a6b;
+  /* Text on a GOLD background. --navy is 4.21:1 there, just under the 4.5
+     needed at 14px. Same hue, one shade deeper, 5.0:1 with headroom. */
+  --ink-on-gold: #133b57;
   --aqua-bg:    #EBF4FA;
   --off-white:  #F8F8F8;
   --border:     #E5E5E5;
@@ -175,7 +178,11 @@ h3 { font-size: 1.2rem; color: var(--body); }
 /* ── HERO ───────────────────────────────────────────────────────────────── */
 
 .hero {
-  background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 60%, #1a7ab8 100%);
+  /* Darkened deliberately, for contrast rather than taste. The gold headline
+     needs 3:1 at 51px and measured 2.62 on the old --blue stop and 2.08 on the
+     old #1a7ab8 end. These give 3.31 and 3.33, with navy unchanged at 4.21.
+     Middle stop is --blue-dark, already in the palette. */
+  background: linear-gradient(135deg, var(--navy) 0%, var(--blue-dark) 60%, #135a87 100%);
   color: var(--white);
   padding: 100px 24px 80px;
   text-align: center;
@@ -203,9 +210,13 @@ h3 { font-size: 1.2rem; color: var(--body); }
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--gold);
+  /* White, not gold: at 12px this needs 4.5:1, and gold failed on every part
+     of the hero -- 4.21 even against the navy stop. White measures 7.39. The
+     gold stays in the pill border, so the accent survives; only the letters
+     changed. */
+  color: var(--white);
   margin-bottom: 20px;
-  border: 1px solid rgba(223,163,44,0.4);
+  border: 1px solid rgba(223,163,44,0.55);
   padding: 5px 14px;
   border-radius: 20px;
 }
@@ -350,8 +361,7 @@ h3 { font-size: 1.2rem; color: var(--body); }
 .weq .section-label { color: var(--gold); }
 .weq h2 { color: var(--white); margin-bottom: 20px; }
 .weq p { color: rgba(255,255,255,0.8); margin-bottom: 16px; line-height: 1.8; }
-.weq .btn-primary { background: var(--gold); margin-top: 8px; }
-.weq .btn-primary:hover { background: var(--gold-dark); }
+.weq .btn-primary { margin-top: 8px; }
 
 .weq-stat-block {
   display: flex;
@@ -460,8 +470,7 @@ h3 { font-size: 1.2rem; color: var(--body); }
 .book-text h2 { margin-bottom: 8px; }
 .book-sub { font-style: italic; color: var(--gray); margin-bottom: 20px; }
 .book-text p { margin-bottom: 16px; line-height: 1.8; }
-.book-text .btn-primary { margin-top: 8px; background: var(--gold); }
-.book-text .btn-primary:hover { background: var(--gold-dark); }
+.book-text .btn-primary { margin-top: 8px; }
 
 /* ── ABOUT ──────────────────────────────────────────────────────────────── */
 
@@ -704,14 +713,18 @@ h3 { font-size: 1.2rem; color: var(--body); }
    #DFA32C does not carry enough contrast to be read comfortably.
 ───────────────────────────────────────────────────────────────────────── */
 .hero .btn-primary,
-.cta .btn-primary {
+.cta .btn-primary,
+.weq .btn-primary,
+.book-text .btn-primary {
   background: var(--gold);
-  color: var(--navy);
+  color: var(--ink-on-gold);
 }
 .hero .btn-primary:hover,
-.cta .btn-primary:hover {
+.cta .btn-primary:hover,
+.weq .btn-primary:hover,
+.book-text .btn-primary:hover {
   background: var(--gold-dark);
-  color: var(--navy);
+  color: var(--ink-on-gold);
 }
 
 
