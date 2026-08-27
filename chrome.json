@@ -13,9 +13,9 @@
     "",
     "{R} is the site root: '' on the tresane.com home page so an in-page anchor",
     "smooth-scrolls, '/' elsewhere on tresane.com, and the absolute tresane.com URL",
-    "on weqleader, where every one of these links is a trip back."
+    "on weqleader, where every one of these links is a trip back.",
+    "FOOTER: PAGES ONLY, NO ANCHORS. Settled with David Aug 27 2026. A footer is read by someone who has just finished the page, and a link that scrolls them back up it is the least useful thing you can offer there. Every footer link goes somewhere they have not been."
   ],
-
   "identity": {
     "email": "information@tresane.com",
     "city": "Lexington, KY",
@@ -23,36 +23,60 @@
     "tagline": "Bringing Workplaces Together<sup>&reg;</sup>",
     "legal": "&copy; 2026 Tresane, LLC. All rights reserved. Tresane<sup>&reg;</sup>, Tresane Model<sup>&reg;</sup>, and Bringing Workplaces Together<sup>&reg;</sup> are registered trademarks of Tresane, LLC."
   },
-
   "nav": [
-    ["{R}#how-we-work", "How We Work"],
-    ["{R}#weq", "WeQ"],
-    ["{R}#what-we-do", "What We Do"],
-    ["/blog", "Blog"],
-    ["{R}#book", "Our Book"],
-    ["{R}#about", "About"],
-    ["https://weqleader.tresane.com/login", "Log in"]
+    [
+      "{R}#how-we-work",
+      "How We Work"
+    ],
+    [
+      "{R}#weq",
+      "WeQ"
+    ],
+    [
+      "{R}#what-we-do",
+      "What We Do"
+    ],
+    [
+      "/blog",
+      "Blog"
+    ],
+    [
+      "{R}#book",
+      "Our Book"
+    ],
+    [
+      "{R}#about",
+      "About"
+    ],
+    [
+      "https://weqleader.tresane.com/login",
+      "Log in"
+    ]
   ],
-
-  "cta": ["{R}#contact", "Get Started"],
-
+  "cta": [
+    "{R}#contact",
+    "Get Started"
+  ],
   "footerColumns": [
     {
-      "title": "Work",
+      "title": "Learn more",
       "links": [
-        ["{R}#how-we-work", "How We Work"],
-        ["{R}#weq", "WeQ"],
-        ["{R}#cycle", "Learning Cycle"],
-        ["{R}#book", "Our Book"]
-      ]
-    },
-    {
-      "title": "Tresane",
-      "links": [
-        ["{R}#what-we-do", "What We Do"],
-        ["/blog", "Blog"],
-        ["{R}#stories", "What People Say"],
-        ["{R}#about", "About"]
+        [
+          "/what-we-do",
+          "What We Do"
+        ],
+        [
+          "/weq",
+          "WeQ"
+        ],
+        [
+          "/weq-team-assessment",
+          "WeQ Team Assessment"
+        ],
+        [
+          "/blog",
+          "Blog"
+        ]
       ]
     }
   ]

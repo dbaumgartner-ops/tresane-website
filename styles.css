@@ -1362,3 +1362,64 @@ picture { display: contents; }
    SAME inline SVG the home page uses, with its own marker id so the two can
    never collide. */
 .remind-cycle-dia { display: block; width: 100%; max-width: 400px; height: auto; margin: 4px auto 16px; }
+
+/* ── TEAM ASSESSMENT (/weq-team-assessment) ─────────────────────────────── */
+.ta-band   { padding: var(--section-pad); background: var(--off-white); }
+.ta-sample { padding: var(--section-pad); background: var(--white); text-align: center; }
+.ta-h { font-size: 1.7rem; text-align: center; margin-bottom: 12px; color: var(--blue); }
+.ta-lead { max-width: 680px; margin: 0 auto 16px; text-align: center; color: var(--gray); }
+.ta-sample .btn-primary, .ta-sample .link-more { margin-top: 12px; }
+
+.ta-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+/* The pillar's own colour on the top edge, matching the wheel in the live
+   report, so a prospect who clicks through recognises what they are looking at. */
+.ta-pillar {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--pc);
+  border-radius: 10px;
+  padding: 20px 22px;
+}
+.ta-pillar h3 { font-size: 1rem; color: var(--navy); margin-bottom: 7px; }
+.ta-pillar p  { font-size: 0.92rem; line-height: 1.65; color: var(--gray); margin: 0; }
+
+.ta-get {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+.ta-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: 10px;
+  padding: 20px 22px;
+}
+.ta-card h3 { font-size: 1rem; color: var(--navy); margin-bottom: 7px; }
+.ta-card p  { font-size: 0.92rem; line-height: 1.65; color: var(--gray); margin: 0; }
+
+.ta-cta { padding: var(--section-pad); background: var(--blue); color: var(--white); text-align: center; }
+.ta-cta h2 { color: var(--white); margin-bottom: 12px; }
+.ta-cta p  { max-width: 620px; margin: 0 auto 26px; color: rgba(255,255,255,0.9); }
+
+/* A gold button, for use on the blue CTA band. Text is --ink-on-gold, which
+   exists precisely because --navy measures 4.21:1 on gold, just under the 4.5
+   that 14px text needs. Gold as a BACKGROUND, never as letters. */
+.btn-gold {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--ink-on-gold);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 13px 30px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.btn-gold:hover { background: var(--gold-dark); }
