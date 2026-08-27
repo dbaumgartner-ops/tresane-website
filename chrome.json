@@ -1,0 +1,59 @@
+{
+  "_comment": [
+    "THE CANONICAL CONTENT OF THE HEADER STRING AND FOOTER, for BOTH public hosts.",
+    "",
+    "tresane.com renders it through site-chrome.mjs (static HTML).",
+    "weqleader.tresane.com renders it through components/PublicChrome.tsx (React),",
+    "reading its own copy at tresane-360/content/chrome.json.",
+    "",
+    "EDIT THIS FILE, then in tresane-360 run `node scripts/sync-chrome.mjs` to pull",
+    "the change across. A test there fails if the two copies disagree, so the drift",
+    "is caught in review rather than by someone noticing months later that one site",
+    "says Lexington and the other says Central Kentucky.",
+    "",
+    "{R} is the site root: '' on the tresane.com home page so an in-page anchor",
+    "smooth-scrolls, '/' elsewhere on tresane.com, and the absolute tresane.com URL",
+    "on weqleader, where every one of these links is a trip back."
+  ],
+
+  "identity": {
+    "email": "information@tresane.com",
+    "city": "Lexington, KY",
+    "region": "Serving Central Kentucky and the Commonwealth",
+    "tagline": "Bringing Workplaces Together<sup>&reg;</sup>",
+    "legal": "&copy; 2026 Tresane, LLC. All rights reserved. Tresane<sup>&reg;</sup>, Tresane Model<sup>&reg;</sup>, and Bringing Workplaces Together<sup>&reg;</sup> are registered trademarks of Tresane, LLC."
+  },
+
+  "nav": [
+    ["{R}#how-we-work", "How We Work"],
+    ["{R}#weq", "WeQ"],
+    ["/what-we-do", "What We Do"],
+    ["/blog", "Blog"],
+    ["{R}#book", "Our Book"],
+    ["{R}#about", "About"],
+    ["https://weqleader.tresane.com/login", "Log in"]
+  ],
+
+  "cta": ["{R}#contact", "Get Started"],
+
+  "footerColumns": [
+    {
+      "title": "Work",
+      "links": [
+        ["{R}#how-we-work", "How We Work"],
+        ["{R}#weq", "WeQ"],
+        ["{R}#cycle", "Learning Cycle"],
+        ["{R}#book", "Our Book"]
+      ]
+    },
+    {
+      "title": "Tresane",
+      "links": [
+        ["/what-we-do", "What We Do"],
+        ["/blog", "Blog"],
+        ["{R}#stories", "What People Say"],
+        ["{R}#about", "About"]
+      ]
+    }
+  ]
+}

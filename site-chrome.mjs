@@ -16,26 +16,32 @@
 // ── The facts that must be identical everywhere ─────────────────────────────
 // Google weighs a consistent name/location string across a site and against the
 // Business Profile. One spelling, one place, or it is not consistent.
-export const EMAIL  = 'information@tresane.com'
-export const CITY   = 'Lexington, KY'
-export const REGION = 'Serving Central Kentucky and the Commonwealth'
-export const LEGAL  =
-  '&copy; 2026 Tresane, LLC. All rights reserved. Tresane<sup>&reg;</sup>, ' +
-  'Tresane Model<sup>&reg;</sup>, and Bringing Workplaces Together<sup>&reg;</sup> ' +
-  'are registered trademarks of Tresane, LLC.'
+//
+// They live in chrome.json, NOT here, because weqleader.tresane.com is a second
+// public host rendering the SAME header string and footer in React. Two hosts
+// hand-writing the same seven links is exactly the drift this file was built to
+// end, one level up. chrome.json is the source; tresane-360 keeps a synced copy
+// pinned by a test.
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const HERE = path.dirname(fileURLToPath(import.meta.url))
+export const CHROME = JSON.parse(fs.readFileSync(path.join(HERE, 'chrome.json'), 'utf8'))
+
+export const EMAIL   = CHROME.identity.email
+export const CITY    = CHROME.identity.city
+export const REGION  = CHROME.identity.region
+export const TAGLINE = CHROME.identity.tagline
+export const LEGAL   = CHROME.identity.legal
 
 // ── Navigation ──────────────────────────────────────────────────────────────
 // {R} is the site root: '' on the home page so an in-page anchor still smooth
-// scrolls, '/' everywhere else so the same link travels home first.
-const NAV = [
-  ['{R}#how-we-work', 'How We Work'],
-  ['{R}#weq',         'WeQ'],
-  ['/what-we-do',     'What We Do'],
-  ['/blog',           'Blog'],
-  ['{R}#book',        'Our Book'],
-  ['{R}#about',       'About'],
-]
-const CTA = ['{R}#contact', 'Get Started']
+// scrolls, '/' everywhere else so the same link travels home first. On weqleader
+// it resolves to the absolute tresane.com URL, which is what makes the header
+// string the way back for someone who arrived from there.
+const NAV = CHROME.nav
+const CTA = CHROME.cta
 
 const LOGO = (p) =>
   '<img src="' + p + 'assets/logo-simple.png" alt="Tresane" width="220" height="133" />'
@@ -80,22 +86,26 @@ export function footer({ home = false } = {}) {
   return '  <footer class="footer">\n    <div class="container">\n' +
     '      <div class="footer-grid">\n' +
     '        <div class="footer-brand">\n          ' + LOGO('/') + '\n' +
-    '          <p class="footer-tagline">Bringing Workplaces Together<sup>&reg;</sup></p>\n' +
+    '          <p class="footer-tagline">' + TAGLINE + '</p>\n' +
     '        </div>\n' +
-    col('Work', [['{R}#how-we-work', 'How We Work'], ['{R}#weq', 'WeQ'],
-                 ['{R}#cycle', 'Learning Cycle'], ['{R}#book', 'Our Book']]) + '\n' +
-    col('Tresane', [['/what-we-do', 'What We Do'], ['/blog', 'Blog'],
-                    ['{R}#stories', 'What People Say'], ['{R}#about', 'About']]) + '\n' +
+    CHROME.footerColumns.map(c => col(c.title, c.links)).join('\n') + '\n' +
     '        <div class="footer-contact">\n          <h3>Connect</h3>\n' + CONTACT + '\n        </div>\n' +
     '      </div>\n' + BOTTOM + '\n    </div>\n  </footer>'
 }
 
-// No link columns: same reason the chat pages have no nav.
+// THE MINIMAL FOOTER. Same navy, same formatting, same trademark line as the
+// full one; it drops only the Work and Tresane link columns. Used where a wall
+// of links would compete with the page: the booking pages (one decision) and
+// the blog posts (a reading experience, whose way onward is the header string).
+//
+// It is the SAME block, not a lesser one. The identity facts and the trademark
+// sentence appear on every public page without exception, because a page that
+// quietly omits them is the drift we are trying to stop.
 export function footerMinimal() {
-  return '    <footer class="footer chat-footer">\n      <div class="container">\n' +
-    '        <div class="chat-footer-grid">\n' +
+  return '    <footer class="footer footer-minimal">\n      <div class="container">\n' +
+    '        <div class="footer-minimal-grid">\n' +
     '          <div class="footer-brand">\n            ' + LOGO('/') + '\n' +
-    '            <p class="footer-tagline">Bringing Workplaces Together<sup>&reg;</sup></p>\n' +
+    '            <p class="footer-tagline">' + TAGLINE + '</p>\n' +
     '          </div>\n' +
     '          <div class="footer-contact">\n' + CONTACT.replace(/^ {10}/gm, '            ') + '\n' +
     '          </div>\n        </div>\n' +

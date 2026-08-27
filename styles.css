@@ -929,7 +929,7 @@ picture { display: contents; }
   display: flex;
   flex-direction: column;
 }
-.chat-page--tinted .chat-footer { margin-top: auto; }
+.chat-page--tinted .footer-minimal { margin-top: auto; }
 .chat-page--tinted .chat-body {
   max-width: 560px;
   margin: 0 auto;
@@ -956,9 +956,9 @@ picture { display: contents; }
    tagline and the trademark line all come from .footer, so this cannot drift
    away from the real one. Two columns instead of four, because the link
    columns are eight exits and this page has one job. */
-.chat-footer { margin-top: 72px; padding: 48px 0 28px; }
-.chat-footer .container { max-width: 900px; }
-.chat-footer-grid {
+.footer-minimal { margin-top: 72px; padding: 48px 0 28px; }
+.footer-minimal .container { max-width: 900px; }
+.footer-minimal-grid {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 40px;
@@ -966,12 +966,14 @@ picture { display: contents; }
   margin-bottom: 36px;
   text-align: left;
 }
-.chat-footer .footer-brand img { width: 120px; height: auto; }
-.chat-footer .footer-contact p { margin: 0 0 6px; }
-.chat-footer .footer-bottom { text-align: left; }
+/* Smaller than the full footer mark (220px intrinsic): the minimal footer is a
+   sign-off, not a masthead. David, Aug 27 2026. */
+.footer-minimal .footer-brand img { width: 88px; height: auto; }
+.footer-minimal .footer-contact p { margin: 0 0 6px; }
+.footer-minimal .footer-bottom { text-align: left; }
 
 @media (max-width: 560px) {
-  .chat-footer-grid { grid-template-columns: 1fr; gap: 24px; }
+  .footer-minimal-grid { grid-template-columns: 1fr; gap: 24px; }
 }
 .chat-page--tinted .chat-logo { margin-bottom: 0; }
 
@@ -996,19 +998,19 @@ picture { display: contents; }
 /* Same band as the lets-chat pages: aqua with the gold rule. The off-white
    version read as greyed out beside them, and one header treatment across
    every non-home page is one fewer thing to keep in step. */
-.blog-head {
+.hero-page {
   background: var(--aqua-bg);
   border-bottom: 3px solid var(--gold);
   padding: 56px 0 44px;
   text-align: center;
 }
-.blog-head h1 { color: var(--blue); margin-bottom: 12px; }
+.hero-page h1 { color: var(--blue); margin-bottom: 12px; }
 /* --gray measures 4.34 on the aqua band, a hair under the 4.5 these sizes
    need. Same tone one shade deeper, 4.64. Scoped to the band rather than
    changing --gray everywhere, because on white it already passes. */
-.blog-head .section-label,
-.blog-head .section-intro { color: #676d7b; }
-.blog-head .section-intro { margin: 0 auto; max-width: 620px; }
+.hero-page .section-label,
+.hero-page .section-intro { color: #676d7b; }
+.hero-page .section-intro { margin: 0 auto; max-width: 620px; }
 
 /* Domain filters. Buttons, not links: they change what is shown on THIS page
    rather than navigating, and a link that does not navigate lies to a screen

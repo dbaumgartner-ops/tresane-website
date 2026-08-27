@@ -5,7 +5,7 @@
 // show what was lost. Edit the .md, then run `node build-blog.mjs`.
 import fs from 'node:fs'
 import path from 'node:path'
-import { nav, footer, chromeScript } from './site-chrome.mjs'
+import { nav, footer, footerMinimal, chromeScript } from './site-chrome.mjs'
 
 const SRC = 'content/blog'
 const OUT = 'blog'
@@ -57,9 +57,22 @@ function head(title, desc, canonical) {
     nav() + '\n'
 }
 
-// The shared footer, plus the script the mobile menu button needs. Both
-// come from site-chrome.mjs, so a post cannot drift from the rest of the site.
-const FOOT = '\n' + footer() + '\n' + chromeScript() + '\n</body>\n</html>\n'
+// The shared footer, plus the script the mobile menu button needs. Both come
+// from site-chrome.mjs, so a post cannot drift from the rest of the site.
+//
+// TWO footers, deliberately (David, Aug 27 2026):
+//   Index -> FULL.    It is a content page and the link columns belong there.
+//   Post  -> MINIMAL. A post is a reading experience, and a wall of links at the
+//            end of an article is clutter. The header string above it already
+//            carries every one of those destinations. Same navy, same trademark
+//            line, minus only the Work and Tresane columns.
+//
+// chromeScript() ships with BOTH, because it is what opens the mobile menu. A
+// post that got the button without the script is precisely the S74 bug, and the
+// blog is the part of the site that is mostly read on phones.
+const END = '\n</body>\n</html>\n'
+const FOOT_FULL = '\n' + footer() + '\n' + chromeScript() + END
+const FOOT_MIN  = '\n' + footerMinimal() + '\n' + chromeScript() + END
 
 const posts = fs.readdirSync(SRC).filter(f => f.endsWith('.md')).map(parse)
   .sort((a, b) => b.date.localeCompare(a.date))   // newest first, always
@@ -88,7 +101,7 @@ for (const p of posts) {
     '      <div class="post-end">\n' +
     '        <p>Something here you would like to talk through?</p>\n' +
     '        <a class="btn-primary" href="/lets-chat-30">Let&rsquo;s chat &rarr;</a>\n' +
-    '      </div>\n    </article>\n  </main>' + FOOT
+    '      </div>\n    </article>\n  </main>' + FOOT_MIN
 
   fs.writeFileSync(path.join(OUT, p.slug + '.html'), html)
 }
@@ -133,7 +146,7 @@ fs.writeFileSync(path.join(OUT, 'index.html'),
     'Weekly reflections on leadership and team development, across Align Self, Align Relationships and Align Teams.',
     '/blog') +
   '  <main>\n' +
-  '    <header class="blog-head">\n      <div class="container">\n' +
+  '    <header class="hero-page">\n      <div class="container">\n' +
   '        <div class="section-label">Writing</div>\n' +
   '        <h1>Notes on leading</h1>\n' +
   '        <p class="section-intro">A weekly reflection, written across the three domains of the Tresane Model. Not advice and not a checklist. What leaders are actually navigating.</p>\n' +
@@ -147,7 +160,7 @@ fs.writeFileSync(path.join(OUT, 'index.html'),
   '      </div>\n\n' +
   '      <div class="cards" id="cards">\n' + cards + '\n      </div>\n' +
   '      <p class="blog-empty" id="empty" hidden>Nothing in that domain yet.</p>\n' +
-  '    </div>\n  </main>' + script + FOOT)
+  '    </div>\n  </main>' + script + FOOT_FULL)
 
 console.log(posts.length + ' post pages + index')
 console.log('newest: ' + posts[0].date + '  /blog/' + posts[0].slug)
