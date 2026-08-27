@@ -1292,3 +1292,56 @@ picture { display: contents; }
 .arc-coda { padding: var(--section-pad); background: var(--off-white); text-align: center; }
 .arc-coda h2 { margin-bottom: 14px; }
 .arc-coda p { max-width: 640px; margin: 0 auto 26px; }
+
+/* ── REMINDER DIALOG ────────────────────────────────────────────────────────
+   A short reminder of something explained in full elsewhere, so a reader can
+   check it without leaving the page they are reading. Native <dialog>: Escape,
+   focus handling and the backdrop come with the element rather than being
+   re-implemented. The link that opens it keeps a real href, so with JS off it
+   still goes to the section.
+========================================================================== */
+.remind {
+  max-width: 620px;
+  width: calc(100% - 40px);
+  border: 0;
+  border-top: 4px solid var(--gold);
+  border-radius: 10px;
+  padding: 30px 34px 34px;
+  background: var(--white);
+  color: var(--body);
+  box-shadow: 0 24px 60px -20px rgba(26,74,107,0.45);
+}
+.remind::backdrop { background: rgba(18,53,74,0.55); }
+.remind h2 { font-size: 1.5rem; color: var(--blue); margin-bottom: 14px; }
+.remind p { font-size: 0.95rem; line-height: 1.7; margin-bottom: 12px; }
+.remind b { color: var(--navy); }
+
+.remind-close-form { float: right; margin: -12px -14px 0 12px; }
+.remind-close {
+  background: transparent;
+  border: 0;
+  font-size: 1.6rem;
+  line-height: 1;
+  padding: 4px 10px;
+  cursor: pointer;
+  color: var(--gray);
+  border-radius: 6px;
+}
+.remind-close:hover { color: var(--navy); background: var(--aqua-bg); }
+
+.remind-dia { display: block; width: 260px; max-width: 100%; margin: 0 auto 18px; }
+.remind-lead { font-weight: 500; }
+.remind-beats { margin: 0 0 12px; padding-left: 20px; }
+.remind-beats li { font-size: 0.95rem; line-height: 1.7; margin-bottom: 9px; }
+.remind-note {
+  font-size: 0.88rem;
+  color: var(--gray);
+  border-top: 1px solid var(--aqua-bg);
+  padding-top: 12px;
+  margin-top: 4px;
+}
+
+@media (max-width: 560px) {
+  .remind { padding: 24px 22px 28px; }
+  .remind-dia { width: 190px; }
+}

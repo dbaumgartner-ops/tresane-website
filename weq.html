@@ -90,7 +90,7 @@
               Model, and the reason all three matter is that alignment in only one
               or two does not hold. They point somewhere: they are how a leader
               gets to a team that owns the work.
-              <a class="link-more" href="/#how-we-work">See the three domains &rarr;</a>
+              <a class="link-more" href="/#how-we-work" data-remind="domains">Remind me of the three domains &rarr;</a>
             </p>
           </li>
           <li>
@@ -130,7 +130,7 @@
               learning cycle is the same four beats every time, at whatever tempo
               the team can keep, and it is the going round that builds the
               capability rather than any one trip through it.
-              <a class="link-more" href="/#cycle">See the learning cycle &rarr;</a>
+              <a class="link-more" href="/#cycle" data-remind="cycle">Remind me of the cycle &rarr;</a>
             </p>
           </li>
           <li>
@@ -169,7 +169,77 @@
       </div>
     </section>
 
+    <!-- ── THE REMINDERS ──────────────────────────────────────────────────
+         David: "rather than pointing people back to the home page for three
+         domains and learning cycle, can we have a pop up cover, so they can
+         quickly be reminded and close."
+
+         Right call: the arc only works read end to end, and sending someone to
+         another page mid-sequence loses them. A reminder is not the same as the
+         section, so these are SHORT on purpose. The full treatments stay on the
+         home page and these never grow into second copies of them.
+
+         Progressive: with JS off both links still go to the home-page section,
+         which is what they did before. The dialog is an upgrade, not a
+         dependency. <dialog> is native, so Escape, focus trapping and the
+         backdrop come for free rather than being re-implemented badly.
+    ─────────────────────────────────────────────────────────────────────── -->
+    <dialog class="remind" id="remind-domains" aria-labelledby="remind-domains-h">
+      <form method="dialog" class="remind-close-form">
+        <button class="remind-close" aria-label="Close">&times;</button>
+      </form>
+      <h2 id="remind-domains-h">The three domains</h2>
+      <picture>
+        <source srcset="/assets/tresane-model.webp" type="image/webp" />
+        <img class="remind-dia" src="/assets/tresane-model.png" width="800" height="800"
+             loading="lazy" decoding="async"
+             alt="The Tresane Model: Align Self, Align Relationships and Align Teams circling the Tresane mark, interconnected rather than sequential." />
+      </picture>
+      <p><b>Align Self.</b> Clarity of values, identity, and purpose. Leaders who know what grounds them can hold pressure without being consumed by it.</p>
+      <p><b>Align Relationships.</b> Respect, curiosity, and trust. How a leader connects with others decides how much of the work moves without them pushing it.</p>
+      <p><b>Align Teams.</b> Shared purpose, systems, and accountability. Teams that own the work together free the leader to lead instead of managing every detail.</p>
+      <p class="remind-note">Align self is the foundation, which is not the same as the starting line. The three interlock, so a team can enter wherever the pressure actually is.</p>
+      <a class="link-more" href="/#how-we-work">See this in full on the home page &rarr;</a>
+    </dialog>
+
+    <dialog class="remind" id="remind-cycle" aria-labelledby="remind-cycle-h">
+      <form method="dialog" class="remind-close-form">
+        <button class="remind-close" aria-label="Close">&times;</button>
+      </form>
+      <h2 id="remind-cycle-h">The WeQ learning cycle</h2>
+      <p class="remind-lead">The same four beats every time, at whatever tempo the team can keep, with WeQ at the center.</p>
+      <ol class="remind-beats">
+        <li><b>System.</b> The current approach, described honestly. The best guess the team is running on right now.</li>
+        <li><b>Experience.</b> How it landed for the people inside it, which is rarely the same as the intent.</li>
+        <li><b>Scorecard.</b> What the picture actually shows, measured on what matters rather than what is easy to count.</li>
+        <li><b>Learn &amp; Adapt.</b> Reflect, adjust, begin again. The next pass starts from a stronger foundation.</li>
+      </ol>
+      <p class="remind-note">A scorecard is the team&rsquo;s current picture. What the team does next begins the cycle again.</p>
+      <a class="link-more" href="/#cycle">See this in full on the home page &rarr;</a>
+    </dialog>
+
   </main>
+
+  <script>
+    // Upgrade the two reminder links into dialogs. Anything that fails here
+    // leaves the link doing what it always did, which is why the href stays.
+    (function () {
+      if (typeof HTMLDialogElement === 'undefined') { return; }
+      document.querySelectorAll('[data-remind]').forEach(function (link) {
+        var dlg = document.getElementById('remind-' + link.dataset.remind);
+        if (!dlg || !dlg.showModal) { return; }
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          dlg.showModal();
+        });
+        // Click the backdrop to close. The dialog's own box stops the event,
+        // so this only fires on the area outside it.
+        dlg.addEventListener('click', function (e) {
+          if (e.target === dlg) { dlg.close(); }
+        });
+      });
+    })();
+  </script>
 
 <!--@footer-->
   <footer class="footer">
