@@ -1178,3 +1178,33 @@ picture { display: contents; }
 @media (max-width: 560px) {
   .wwd-block--commit { padding: 28px 22px 32px; }
 }
+
+/* ── READ MORE ──────────────────────────────────────────────────────────────
+   The link from a home-page section to the page that carries the subject in
+   full. Text rather than a button: a section usually already has a primary
+   action, and two buttons side by side compete instead of ranking.
+
+   For use on LIGHT sections only. On navy, --blue is not readable; use
+   .btn-secondary there, which is built for it.
+========================================================================== */
+.link-more {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--blue);
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+.link-more:hover { border-color: var(--gold); }
+
+/* ── WHAT WE DO (home section) ──────────────────────────────────────────── */
+.what-we-do {
+  padding: var(--section-pad);
+  background: var(--white);
+  text-align: center;
+}
+/* The five offerings are NOT repeated here: How We Work, directly above,
+   already lists them under "You can engage through". Two lists of the same five
+   things on one page is the reader wondering which one is current. */
+.what-we-do .section-intro { margin-bottom: 28px; }

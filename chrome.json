@@ -27,7 +27,7 @@
   "nav": [
     ["{R}#how-we-work", "How We Work"],
     ["{R}#weq", "WeQ"],
-    ["/what-we-do", "What We Do"],
+    ["{R}#what-we-do", "What We Do"],
     ["/blog", "Blog"],
     ["{R}#book", "Our Book"],
     ["{R}#about", "About"],
@@ -49,7 +49,7 @@
     {
       "title": "Tresane",
       "links": [
-        ["/what-we-do", "What We Do"],
+        ["{R}#what-we-do", "What We Do"],
         ["/blog", "Blog"],
         ["{R}#stories", "What People Say"],
         ["{R}#about", "About"]
