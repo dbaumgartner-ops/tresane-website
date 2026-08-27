@@ -1301,6 +1301,14 @@ picture { display: contents; }
    still goes to the section.
 ========================================================================== */
 .remind {
+  /* THE GLOBAL RESET SETS margin: 0 ON EVERYTHING, which silently kills the
+     centring a modal <dialog> does for itself. Without this it pins to the top
+     left of the viewport and looks broken. */
+  margin: auto;
+  /* Never taller than the window. A dialog that overflows cannot be closed by
+     someone who cannot reach the button. */
+  max-height: 86vh;
+  overflow-y: auto;
   max-width: 620px;
   width: calc(100% - 40px);
   border: 0;
@@ -1329,7 +1337,10 @@ picture { display: contents; }
 }
 .remind-close:hover { color: var(--navy); background: var(--aqua-bg); }
 
-.remind-dia { display: block; width: 260px; max-width: 100%; margin: 0 auto 18px; }
+/* height: auto is not optional. The img carries height="800" for layout
+   reservation, and setting only the width leaves that attribute in force: a
+   260px-wide, 800px-tall diagram. */
+.remind-dia { display: block; width: 250px; height: auto; max-width: 100%; margin: 0 auto 18px; }
 .remind-lead { font-weight: 500; }
 .remind-beats { margin: 0 0 12px; padding-left: 20px; }
 .remind-beats li { font-size: 0.95rem; line-height: 1.7; margin-bottom: 9px; }
@@ -1344,4 +1355,10 @@ picture { display: contents; }
 @media (max-width: 560px) {
   .remind { padding: 24px 22px 28px; }
   .remind-dia { width: 190px; }
+  .remind-cycle-dia { max-width: 100%; }
 }
+/* The cycle graphic inside the reminder. David preferred the diagram to the
+   four-line list: for a reminder a picture lands faster than prose. It is the
+   SAME inline SVG the home page uses, with its own marker id so the two can
+   never collide. */
+.remind-cycle-dia { display: block; width: 100%; max-width: 400px; height: auto; margin: 4px auto 16px; }

@@ -208,12 +208,52 @@
       </form>
       <h2 id="remind-cycle-h">The WeQ learning cycle</h2>
       <p class="remind-lead">The same four beats every time, at whatever tempo the team can keep, with WeQ at the center.</p>
-      <ol class="remind-beats">
-        <li><b>System.</b> The current approach, described honestly. The best guess the team is running on right now.</li>
-        <li><b>Experience.</b> How it landed for the people inside it, which is rarely the same as the intent.</li>
-        <li><b>Scorecard.</b> What the picture actually shows, measured on what matters rather than what is easy to count.</li>
-        <li><b>Learn &amp; Adapt.</b> Reflect, adjust, begin again. The next pass starts from a stronger foundation.</li>
-      </ol>
+      <svg class="remind-cycle-dia" viewBox="0 0 600 600" role="img"
+           aria-label="The WeQ learning cycle: one, System, the current approach described honestly. Two, Experience, how it landed for the people inside it. Three, Scorecard, what the picture actually shows. Four, Learn and Adapt, reflect, adjust, begin again. WeQ collective intelligence sits at the center.">
+        <defs>
+          <marker id="cyRemind" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+            <path d="M0,1 L9,5 L0,9 z" fill="#DFA32C" />
+          </marker>
+        </defs>
+
+        <g class="dia-arc">
+          <path d="M400.7,138.9 A190,190 0 0 1 461.1,199.3" marker-end="url(#cyRemind)" />
+          <path d="M461.1,400.7 A190,190 0 0 1 400.7,461.1" marker-end="url(#cyRemind)" />
+          <path d="M199.3,461.1 A190,190 0 0 1 138.9,400.7" marker-end="url(#cyRemind)" />
+          <path d="M138.9,199.3 A190,190 0 0 1 199.3,138.9" marker-end="url(#cyRemind)" />
+        </g>
+
+        <image class="dia-hub-img" href="/assets/weq-mark.png" x="195" y="195" width="210" height="210"
+               preserveAspectRatio="xMidYMid meet" />
+
+        <g class="dia-node">
+          <circle cx="300" cy="110" r="80" />
+          <circle cx="490" cy="300" r="80" />
+          <circle cx="300" cy="490" r="80" />
+          <circle cx="110" cy="300" r="80" />
+        </g>
+
+        <g class="dia-badge">
+          <circle cx="300" cy="30" r="17" />
+          <circle cx="547" cy="243" r="17" />
+          <circle cx="300" cy="570" r="17" />
+          <circle cx="53"  cy="243" r="17" />
+        </g>
+        <g class="dia-badge-t">
+          <text x="300" y="37">1</text>
+          <text x="547" y="250">2</text>
+          <text x="300" y="577">3</text>
+          <text x="53"  y="250">4</text>
+        </g>
+
+        <g class="dia-name">
+          <text x="300" y="119">SYSTEM</text>
+          <text x="490" y="309">EXPERIENCE</text>
+          <text x="300" y="499">SCORECARD</text>
+          <text x="110" y="297">LEARN &amp;</text>
+          <text x="110" y="321">ADAPT</text>
+        </g>
+      </svg>
       <p class="remind-note">A scorecard is the team&rsquo;s current picture. What the team does next begins the cycle again.</p>
       <a class="link-more" href="/#cycle">See this in full on the home page &rarr;</a>
     </dialog>
