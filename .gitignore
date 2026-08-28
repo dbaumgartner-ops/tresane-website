@@ -1,0 +1,6 @@
+# Client logos staged for documents. This repo is served to the public exactly
+# as it sits, so a committed "Client Assets" folder would put every prospect's
+# logo on a public URL -- and a folder that accumulates them is a readable list
+# of who Tresane is talking to. The canonical copies live with the documents
+# themselves, in tresane-360/client-docs/<client>/img/, which is private.
+assets/Client Assets/
