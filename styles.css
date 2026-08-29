@@ -1494,3 +1494,28 @@ picture { display: contents; }
 @media (max-width: 560px) {
   .sample-report .lane-row { flex-direction: column; align-items: flex-start; gap: 0.25rem; }
 }
+
+/* ── /mantras ──────────────────────────────────────────────────────────────
+   The phrase is the thing a reader is meant to leave with, so it is set in the
+   display face at the size of a pull quote rather than run inline in the body.
+   Blue, not gold: gold is a background and a rule on this site, never letters,
+   and at 2.23:1 on white it would fail contrast outright.                    */
+.mantras-lede {
+  font-size: 1.02rem; line-height: 1.8; color: var(--gray);
+  margin: 0; padding-bottom: 4px;
+}
+/* The MANTRA is the heading of its block and the moment is the eyebrow above
+   it, not the other way round: the phrase is the thing a reader is meant to
+   carry away, and as a <p> it inherited .wwd p (16px) and read as a caption
+   under a 27px moment. Measured, not eyeballed: .wwd p is class+element and
+   out-specifies a lone .mantra-phrase class, so sizing it here would have been
+   overridden anyway. Blue letters on a gold rule; gold is a background and a
+   rule on this site, never letters, at 2.23:1 on white it fails outright. */
+.mantras .mantra-moment { margin-bottom: 10px; }
+.wwd h2.mantra-phrase {
+  margin-bottom: 18px; padding-left: 18px;
+  border-left: 3px solid var(--gold);
+}
+@media (max-width: 600px) {
+  .wwd h2.mantra-phrase { padding-left: 14px; }
+}

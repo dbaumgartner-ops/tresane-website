@@ -8,6 +8,7 @@ const PAGES = [
   { file: 'index.html',        home: true,  chrome: 'full' },
   { file: 'what-we-do.html',   home: false, chrome: 'full' },
   { file: 'weq.html',          home: false, chrome: 'full' },
+  { file: 'mantras.html',      home: false, chrome: 'full' },
   { file: 'weq-team-assessment.html', home: false, chrome: 'full' },
   { file: 'weq-team-sample.html',      home: false, chrome: 'full' },
   { file: 'lets-chat-15.html', home: false, chrome: 'minimal' },
